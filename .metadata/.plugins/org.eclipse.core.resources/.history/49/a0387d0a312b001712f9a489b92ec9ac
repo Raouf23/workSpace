@@ -1,0 +1,19 @@
+package com.tavant.hashmaptest;
+
+import java.util.HashMap;
+
+public class TestHash {
+
+	public static void main(String[] args) {
+		HashMap<Integer, String> hsm = new HashMap<Integer, String>();
+		hsm.put(1, "Tesco");
+		hsm.put(2, "Tavant");
+		hsm.put(3, "CEB");
+		hsm.put(4, "BT");
+		
+		String value = hsm.get(2);
+		System.out.println(value);
+
+	}
+
+}

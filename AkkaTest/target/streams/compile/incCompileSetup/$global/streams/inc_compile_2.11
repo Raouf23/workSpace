@@ -1,0 +1,191 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> D:\workspace\AkkaTest\target\scala-2.11\classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.11
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+8 items
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\ActorTest2$$anonfun$receive$1.class
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\ActorTest2.class
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\main$$anonfun$1.class
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\main$.class
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\main$delayedInit$body.class
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\main.class
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\HelloActor$$anonfun$receive$1.class
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\HelloActor.class
+binary dependencies:
+6 items
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> C:\Program Files\Java\jre1.8.0_102\lib\rt.jar
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> C:\Users\raouf.khan\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.5.1.jar
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.11.jar
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> C:\Program Files\Java\jre1.8.0_102\lib\rt.jar
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> C:\Users\raouf.khan\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.5.1.jar
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.11.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+8 items
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> akkaTest.ActorTest2
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> akkaTest.ActorTest2$$anonfun$receive$1
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> akkaTest.main
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> akkaTest.main$
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> akkaTest.main$$anonfun$1
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> akkaTest.main$delayedInit$body
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> akkaTest.HelloActor
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> akkaTest.HelloActor$$anonfun$receive$1
+used names:
+77 items
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> !
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> <byname>
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> <init>
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> <repeated>
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> ==
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> A1
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> AbstractPartialFunction
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> Actor
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> ActorRef
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> ActorSystem
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> ActorTest
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> ActorTest2
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> Any
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> App
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> B1
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> Boolean
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> Class
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> ClassTag
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> Function1
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> Nothing
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> Object
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> Predef
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> Props
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> ScalaActorRef
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> String
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> StringContext
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> T
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> T0
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> Unit
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> _$7
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> actor
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> actorOf
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> actorRef2Scala
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> akka
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> akkaTest
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> apply
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> asInstanceOf
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> main
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> materializeClassTag
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> myName
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> package
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> println
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> qual$1
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> qual$2
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> s
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> scala
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> stop
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> system1
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> unchecked
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> x$1
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> x$2
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> x$3
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> x$4
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> <init>
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> ==
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> A1
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> AbstractPartialFunction
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> Actor
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> ActorSystem
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> Any
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> B1
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> Boolean
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> Function1
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> HelloActor
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> Nothing
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> Object
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> Predef
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> Props
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> T0
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> Unit
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> actor
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> akka
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> akkaTest
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> asInstanceOf
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> print
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> scala
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> unchecked
+product stamps:
+8 items
+D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\ActorTest2$$anonfun$receive$1.class -> lastModified(1494237942084)
+D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\ActorTest2.class -> lastModified(1494237942069)
+D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\HelloActor$$anonfun$receive$1.class -> lastModified(1494236447692)
+D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\HelloActor.class -> lastModified(1494236447677)
+D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\main$$anonfun$1.class -> lastModified(1494237942100)
+D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\main$.class -> lastModified(1494237942100)
+D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\main$delayedInit$body.class -> lastModified(1494237942115)
+D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\main.class -> lastModified(1494237942084)
+source stamps:
+2 items
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> hash(016c252f092974f7319308c968642eb1c993e095)
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> hash(66b389fb56aef286b579a863bf68330794a93d23)
+binary stamps:
+3 items
+C:\Program Files\Java\jre1.8.0_102\lib\rt.jar -> lastModified(1479477410034)
+C:\Users\raouf.khan\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.5.1.jar -> lastModified(1493717382000)
+C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.11.jar -> lastModified(1492113025000)
+class names:
+3 items
+C:\Program Files\Java\jre1.8.0_102\lib\rt.jar -> java.lang.Object
+C:\Users\raouf.khan\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.5.1.jar -> akka.actor.Actor
+C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.11.jar -> scala.App
+internal apis:
+2 items
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw4aU7jQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHBr9jYVdAAEc2VsZnNxAH4AC1UH1cB0AAdjb250ZXh0dXEAfgAJAAAAKnNxAH4AC5tJaBl0AAZub3RpZnlzcQB+AAt+rlb0dAAHUmVjZWl2ZXNxAH4AC7yqGnh0AAR3YWl0c3EAfgALQ07GTXQADSRhc0luc3RhbmNlT2ZzcQB+AAvORQjEdAAGZXF1YWxzc3EAfgALN/u4GHQADGFzSW5zdGFuY2VPZnNxAH4AC0fMGPl0AA5leGVjdXRpb25TdGFydHNxAH4AC0njfR10AAxzeW5jaHJvbml6ZWRzcQB+AAtyvhzXdAANJGlzSW5zdGFuY2VPZnNxAH4AC/wNNBx0AAdyZWNlaXZlc3EAfgALnwBi33QACnByZVJlc3RhcnRzcQB+AAuekHUQdAANYXJvdW5kUmVjZWl2ZXNxAH4AC9L1EoN0AAtwb3N0UmVzdGFydHNxAH4AC5WJUWV0AARtYWluc3EAfgAL8LSeFXQACHBvc3RTdG9wc3EAfgALx674hnQACW5vdGlmeUFsbHNxAH4ACx9lpxh0ABFhcm91bmRQb3N0UmVzdGFydHNxAH4AC6jRiIF0AAxpc0luc3RhbmNlT2ZzcQB+AAtHrHrDdAAQYXJvdW5kUHJlUmVzdGFydHNxAH4AC7P9dQl0AA5hcm91bmRQb3N0U3RvcHNxAH4ACwauVtZ0AAY8aW5pdD5zcQB+AAszUv58dAAIcHJlU3RhcnRzcQB+AAveZeotdAAJdW5oYW5kbGVkc3EAfgAL1Ecj8nQAB3N5c3RlbTFzcQB+AAv4Bzi3dAACPT1zcQB+AAsOR+E7dAAFY2xvbmVzcQB+AAubsZrEdAAGJGluaXQkc3EAfgAL5xjZVHQABnNlbmRlcnNxAH4AC3+cGG50AAh0b1N0cmluZ3NxAH4AC8Ts2vV0AARhcmdzc3EAfgAL2IstpnQAAiE9c3EAfgALxo14sHQACGdldENsYXNzc3EAfgALvpwiyXQACkFjdG9yVGVzdDJzcQB+AAsB82gQdAACbmVzcQB+AAutOuQVdAASc3VwZXJ2aXNvclN0cmF0ZWd5c3EAfgALd3p4KnQAAmVxc3EAfgALrgJYxXQAC2RlbGF5ZWRJbml0c3EAfgALj65k5nQAAiMjc3EAfgALqub2f3QACGZpbmFsaXplc3EAfgAL9+s3unQACUFjdG9yVGVzdHNxAH4AC/e3RNd0AAhoYXNoQ29kZXNxAH4AC2znJyR0AA5hcm91bmRQcmVTdGFydHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAJzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AG94cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgAMeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABNha2thVGVzdC5BY3RvclRlc3QydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIdzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4Ab0wACWluaGVyaXRlZHEAfgBvTAAHcGFyZW50c3EAfgBveHEAfgCMc3EAfgCHdXEAfgBqAAAAAHNxAH4Ah3VxAH4AagAAAABzcQB+AId1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAA3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADEwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AIt0AAVBY3RvcnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ai3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AAx4cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEYWtrYXNxAH4ApHQABWFjdG9yc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AKVzcQB+AJh0AAZPYmplY3RzcQB+AJxzcQB+AJ91cQB+AKIAAAADc3EAfgCkdAAEamF2YXNxAH4ApHQABGxhbmdxAH4Aq3NxAH4AmHQAA0FueXNxAH4AnHNxAH4An3VxAH4AogAAAAJzcQB+AKR0AAVzY2FsYXEAfgCrc3EAfgBscQB+AHl1cQB+AHoAAAAAc3EAfgB8AHQADWFra2FUZXN0Lm1haW51cQB+AH8AAAAAfnEAfgCBdAAGTW9kdWxldXEAfgCFAAAAAnQAGnNjYWxhLmRlcHJlY2F0ZWRPdmVycmlkaW5ndAAQc2NhbGEuZGVwcmVjYXRlZHNxAH4Ah3EAfgCNc3EAfgCHc3EAfgCPc3EAfgCHdXEAfgBqAAAAAHNxAH4Ah3VxAH4AagAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AcHEAfgB5dXEAfgB6AAAAAXNyABR4c2J0aS5hcGkuQW5ub3RhdGlvbt4OgaL2XAqyAgACWwAJYXJndW1lbnRzdAAfW0x4c2J0aS9hcGkvQW5ub3RhdGlvbkFyZ3VtZW50O0wABGJhc2VxAH4AznhwdXIAH1tMeHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudDtRnaaPOCUPeAIAAHhwAAAAAXNyABx4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW501kWx2AMbF3wCAAJMAARuYW1lcQB+AAxMAAV2YWx1ZXEAfgAMeHB0AAB0ACooIm1haW4gc2hvdWxkIG5vdCBiZSBvdmVycmlkZGVuIiwiMi4xMS4wIilzcQB+AJh0ABRkZXByZWNhdGVkT3ZlcnJpZGluZ3NxAH4AnHNxAH4An3VxAH4AogAAAAJzcQB+AKRxAH4Au3EAfgCrc3EAfgB8AHQABG1haW51cQB+AH8AAAAAc3EAfgCYdAAEVW5pdHEAfgDddXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AAxMAAN0cGVxAH4AznhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AgnQABVBsYWlucQB+AE1zcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AJlbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AItzcQB+AJh0AAVBcnJheXEAfgDddXEAfgCWAAAAAXNxAH4AmHQABlN0cmluZ3NxAH4AnHNxAH4An3VxAH4AogAAAANzcQB+AKRxAH4AsnNxAH4ApHEAfgC0cQB+AKtzcQB+AId1cQB+AJYAAAAEc3EAfgCYdAADQXBwcQB+AN1zcQB+AJh0AAtEZWxheWVkSW5pdHEAfgDdc3EAfgCYcQB+AK1xAH4A+3NxAH4AmHEAfgC2cQB+AN11cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0AAhha2thVGVzdHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW+eFiBx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdAAvRDpcd29ya3NwYWNlXEFra2FUZXN0XHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQBbCUvCSl09zGTCMloZC6xyZPglQ==
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwhJJdUQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAJzcgAgeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2hbDvUidjhXzwIAAkkABGhhc2hMAARuYW1ldAASTGphdmEvbGFuZy9TdHJpbmc7eHBH/9RPdAAEc2VsZnNxAH4AC0Q0RcV0AAdjb250ZXh0dXEAfgAJAAAAJHNxAH4ACwgANHp0AAZub3RpZnlzcQB+AAvQvfNydAAHUmVjZWl2ZXNxAH4AC5LLYpN0AAR3YWl0c3EAfgALjQgFEHQADSRhc0luc3RhbmNlT2ZzcQB+AAuWQlOhdAAGZXF1YWxzc3EAfgAL0tdpDXQADGFzSW5zdGFuY2VPZnNxAH4ACzDQ2YB0AAxzeW5jaHJvbml6ZWRzcQB+AAt/Q6XJdAANJGlzSW5zdGFuY2VPZnNxAH4AC8+Rd5d0AAdyZWNlaXZlc3EAfgALmeVDRXQACnByZVJlc3RhcnRzcQB+AAtEfiXfdAANYXJvdW5kUmVjZWl2ZXNxAH4AC/27vo50AAtwb3N0UmVzdGFydHNxAH4ACyiOqa90AAhwb3N0U3RvcHNxAH4AC/jQHWR0AAlub3RpZnlBbGxzcQB+AAtx9/gUdAARYXJvdW5kUG9zdFJlc3RhcnRzcQB+AAvf1QjkdAAMaXNJbnN0YW5jZU9mc3EAfgAL78Q/UnQAEGFyb3VuZFByZVJlc3RhcnRzcQB+AAut2g4+dAAOYXJvdW5kUG9zdFN0b3BzcQB+AAt5rgTTdAAGPGluaXQ+c3EAfgALe+LsgXQACHByZVN0YXJ0c3EAfgALr/WmcnQACXVuaGFuZGxlZHNxAH4ACwqD7rh0AAI9PXNxAH4AC09uwhx0AAVjbG9uZXNxAH4AC47YMpJ0AApIZWxsb0FjdG9yc3EAfgAL78+AQ3QABiRpbml0JHNxAH4ACztT8LJ0AAZzZW5kZXJzcQB+AAum90p7dAAIdG9TdHJpbmdzcQB+AAuNWCXZdAACIT1zcQB+AAuujGzydAAIZ2V0Q2xhc3NzcQB+AAtUDW/JdAACbmVzcQB+AAtNPg7kdAASc3VwZXJ2aXNvclN0cmF0ZWd5c3EAfgALBIV+VnQAAmVxc3EAfgAL1HOpLXQAAiMjc3EAfgALBJGIq3QACGZpbmFsaXplc3EAfgALtHUq9XQACGhhc2hDb2Rlc3EAfgALgXrinnQADmFyb3VuZFByZVN0YXJ0c3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AY3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AAx4cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAE2Fra2FUZXN0LkhlbGxvQWN0b3J1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4Ae3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBjTAAJaW5oZXJpdGVkcQB+AGNMAAdwYXJlbnRzcQB+AGN4cQB+AIBzcQB+AHt1cQB+AF4AAAAAc3EAfgB7dXEAfgBeAAAAAHNxAH4Ae3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Af3QABUFjdG9yc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB/c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARha2thc3EAfgCYdAAFYWN0b3JzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AmXNxAH4AjHQABk9iamVjdHNxAH4AkHNxAH4Ak3VxAH4AlgAAAANzcQB+AJh0AARqYXZhc3EAfgCYdAAEbGFuZ3EAfgCfc3EAfgCMdAADQW55c3EAfgCQc3EAfgCTdXEAfgCWAAAAAnNxAH4AmHQABXNjYWxhcQB+AJ91cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgAMeHB0AAhha2thVGVzdHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW+duuhd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AAxMAA9zb3VyY2VEaXJlY3RvcnlxAH4ADHhwdAAvRDpcd29ya3NwYWNlXEFra2FUZXN0XHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRms4n7Vq7yhrV5qGO/aDMHlKk9Iw==
+external apis:
+0 items
+source infos:
+2 items
+D:\workspace\AkkaTest\src\main\scala\akkaTest\ActorTest2.scala -> 
+AAAAAAAAAAA=
+D:\workspace\AkkaTest\src\main\scala\akkaTest\HelloActor.scala -> 
+AAAAAAAAAAA=
+compilations:
+8 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW9HU7/V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAL0Q6XHdvcmtzcGFjZVxBa2thVGVzdFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW9HXVsB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAL0Q6XHdvcmtzcGFjZVxBa2thVGVzdFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW9HYUU11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAL0Q6XHdvcmtzcGFjZVxBa2thVGVzdFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW9H0/+J1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAL0Q6XHdvcmtzcGFjZVxBa2thVGVzdFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW+dkNwB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAL0Q6XHdvcmtzcGFjZVxBa2thVGVzdFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW+dk5S91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAL0Q6XHdvcmtzcGFjZVxBa2thVGVzdFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW+duuhd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAL0Q6XHdvcmtzcGFjZVxBa2thVGVzdFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+7 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABW+eFiBx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAL0Q6XHdvcmtzcGFjZVxBa2thVGVzdFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==

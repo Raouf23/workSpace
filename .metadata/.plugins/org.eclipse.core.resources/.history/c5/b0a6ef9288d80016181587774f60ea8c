@@ -1,0 +1,23 @@
+package com.jackson.tavant;
+
+public class Student
+{
+	private String Name;
+	private int age;
+	public String getName() {
+		return Name;
+	}
+	public void setName(String name) {
+		Name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public String toString()
+	{
+		return "Student [ name: "+ Name + ", age:" + age + "]";
+	}
+}

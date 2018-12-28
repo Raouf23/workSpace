@@ -1,0 +1,761 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> D:\workspace\SparkSqlTest\target\scala-2.11\classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+32 items
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\Categories$.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\Categories.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\Departments$.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\Departments.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\OrderItems$.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\OrderItems.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\Orders$.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\Orders.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\Products$.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\Products.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st$$anonfun$1.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st$$anonfun$2.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st$$anonfun$main$1.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st$$anonfun$main$2.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st$$anonfun$main$3.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st$$typecreator2$1.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st$.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st$Person$.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st$Person.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$anonfun$1.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$anonfun$2.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$anonfun$3.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$anonfun$4.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$anonfun$5.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$typecreator10$1.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$typecreator2$1.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$typecreator4$1.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$typecreator6$1.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$typecreator8$1.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$.class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL.class
+binary dependencies:
+25 items
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> C:\Program Files\Java\jre1.8.0_102\lib\rt.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> C:\Program Files\Java\jre1.8.0_102\lib\rt.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> C:\Program Files\Java\jre1.8.0_102\lib\rt.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> C:\Program Files\Java\jre1.8.0_102\lib\rt.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> C:\Program Files\Java\jre1.8.0_102\lib\rt.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> C:\Program Files\Java\jre1.8.0_102\lib\rt.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> C:\Users\raouf.khan\.ivy2\cache\com.typesafe\config\bundles\config-1.3.1.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> C:\Users\raouf.khan\.ivy2\cache\org.apache.spark\spark-catalyst_2.11\jars\spark-catalyst_2.11-2.1.0.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> C:\Users\raouf.khan\.ivy2\cache\org.apache.spark\spark-core_2.11\jars\spark-core_2.11-2.1.0.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> C:\Users\raouf.khan\.ivy2\cache\org.apache.spark\spark-sql_2.11\jars\spark-sql_2.11-2.1.0.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.8.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> C:\Program Files\Java\jre1.8.0_102\lib\rt.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> C:\Users\raouf.khan\.ivy2\cache\com.typesafe\config\bundles\config-1.3.1.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> C:\Users\raouf.khan\.ivy2\cache\org.apache.hadoop\hadoop-common\jars\hadoop-common-2.2.0.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> C:\Users\raouf.khan\.ivy2\cache\org.apache.spark\spark-catalyst_2.11\jars\spark-catalyst_2.11-2.1.0.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> C:\Users\raouf.khan\.ivy2\cache\org.apache.spark\spark-core_2.11\jars\spark-core_2.11-2.1.0.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> C:\Users\raouf.khan\.ivy2\cache\org.apache.spark\spark-sql_2.11\jars\spark-sql_2.11-2.1.0.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.8.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+5 items
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+32 items
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> sqlTest.Categories
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> sqlTest.Categories$
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> sqlTest.Departments
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> sqlTest.Departments$
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> sqlTest.OrderItems
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> sqlTest.OrderItems$
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> sqlTest.Orders
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> sqlTest.Orders$
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> sqlTest.Products
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> sqlTest.Products$
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> sqlTest.st
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> sqlTest.st$
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> sqlTest.st$$anonfun$1
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> sqlTest.st$$anonfun$2
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> sqlTest.st$$anonfun$main$1
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> sqlTest.st$$anonfun$main$2
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> sqlTest.st$$anonfun$main$3
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> sqlTest.st$$typecreator2$1
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> sqlTest.st$Person
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> sqlTest.st$Person$
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> sqlTest.TotalRevenueDailySQL
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> sqlTest.TotalRevenueDailySQL$
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> sqlTest.TotalRevenueDailySQL$$anonfun$1
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> sqlTest.TotalRevenueDailySQL$$anonfun$2
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> sqlTest.TotalRevenueDailySQL$$anonfun$3
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> sqlTest.TotalRevenueDailySQL$$anonfun$4
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> sqlTest.TotalRevenueDailySQL$$anonfun$5
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> sqlTest.TotalRevenueDailySQL$$typecreator10$1
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> sqlTest.TotalRevenueDailySQL$$typecreator2$1
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> sqlTest.TotalRevenueDailySQL$$typecreator4$1
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> sqlTest.TotalRevenueDailySQL$$typecreator6$1
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> sqlTest.TotalRevenueDailySQL$$typecreator8$1
+used names:
+522 items
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> &&
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> <init>
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> ==
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> A
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> AbstractFunction3
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> Any
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> AnyRef
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> Boolean
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> Categories
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> IndexOutOfBoundsException
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> Int
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> Iterator
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> None
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> Nothing
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> Object
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> Predef
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> Product
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> ScalaRunTime
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> Serializable
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> Some
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> Statics
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> String
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> T
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> T0
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> T1
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> T2
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> T3
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> Tuple3
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> _toString
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> anyHash
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> asInstanceOf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> category_department_id
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> category_id
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> category_name
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> eq
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> finalizeHash
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> isInstanceOf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> mix
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> package
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> runtime
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> scala
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> sqlTest
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> toString
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> typedProductIterator
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> ||
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> &&
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> <init>
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> ==
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> A
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> AbstractFunction2
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> Any
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> AnyRef
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> Boolean
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> Departments
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> IndexOutOfBoundsException
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> Int
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> Iterator
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> None
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> Nothing
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> Object
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> Predef
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> Product
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> ScalaRunTime
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> Serializable
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> Some
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> Statics
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> String
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> T
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> T0
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> T1
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> T2
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> Tuple2
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> _toString
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> anyHash
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> asInstanceOf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> department_id
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> department_name
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> eq
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> finalizeHash
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> isInstanceOf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> mix
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> package
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> runtime
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> scala
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> sqlTest
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> toString
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> typedProductIterator
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> ||
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> &&
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> <init>
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> ==
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> A
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> AbstractFunction6
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> Any
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> AnyRef
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> Boolean
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> Float
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> IndexOutOfBoundsException
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> Int
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> Iterator
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> None
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> Nothing
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> Object
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> OrderItems
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> Predef
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> Product
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> ScalaRunTime
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> Serializable
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> Some
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> Statics
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> String
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> T
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> T0
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> T1
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> T2
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> T3
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> T4
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> T5
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> T6
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> Tuple6
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> _toString
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> asInstanceOf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> eq
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> finalizeHash
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> floatHash
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> isInstanceOf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> mix
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> order_item_id
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> order_item_order_id
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> order_item_price
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> order_item_product_id
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> order_item_quantity
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> order_item_subtotal
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> package
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> runtime
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> scala
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> sqlTest
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> toString
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> typedProductIterator
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> ||
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> &&
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> <init>
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> ==
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> A
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> AbstractFunction4
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> Any
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> AnyRef
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> Boolean
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> IndexOutOfBoundsException
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> Int
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> Iterator
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> None
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> Nothing
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> Object
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> Orders
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> Predef
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> Product
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> ScalaRunTime
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> Serializable
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> Some
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> Statics
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> String
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> T
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> T0
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> T1
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> T2
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> T3
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> T4
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> Tuple4
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> _toString
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> anyHash
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> asInstanceOf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> eq
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> finalizeHash
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> isInstanceOf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> mix
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> order_customer_id
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> order_date
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> order_id
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> order_status
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> package
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> runtime
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> scala
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> sqlTest
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> toString
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> typedProductIterator
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> ||
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> &&
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> <init>
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> ==
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> A
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> AbstractFunction6
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> Any
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> AnyRef
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> Boolean
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> Float
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> IndexOutOfBoundsException
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> Int
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> Iterator
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> None
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> Nothing
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> Object
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> Predef
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> Product
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> Products
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> ScalaRunTime
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> Serializable
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> Some
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> Statics
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> String
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> T
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> T0
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> T1
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> T2
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> T3
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> T4
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> T5
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> T6
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> Tuple6
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> _toString
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> anyHash
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> asInstanceOf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> eq
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> finalizeHash
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> floatHash
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> isInstanceOf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> mix
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> package
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> product_category_id
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> product_description
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> product_id
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> product_image
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> product_name
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> product_price
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> runtime
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> scala
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> sqlTest
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> toString
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> typedProductIterator
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> ||
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> $m
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> $m$untyped
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> $typecreator2
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> $u
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> &&
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> +
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> <init>
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> <repeated>
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> ==
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> ?0
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> A
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> AbstractFunction2
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Any
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> AnyRef
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Array
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> ArrayOps
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Boolean
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> ClassLoader
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> ClassSymbol
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> ClassTag
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Config
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> ConfigFactory
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> DataFrame
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> DataFrameReader
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Dataset
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> DatasetHolder
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Encoder
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Encoders
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Function1
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> IndexOutOfBoundsException
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Int
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Iterator
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> JavaUniverse
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> List
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Long
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Map
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Mirror
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> None
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Nothing
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Object
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Person
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Predef
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Product
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> RDD
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Row
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> SQLContext
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> ScalaRunTime
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Seq
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Serializable
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Singleton
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Some
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> SparkConf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> SparkContext
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Statics
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> String
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> StringOps
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> T
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> T0
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> T1
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> T2
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Tuple2
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Type
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> TypeCreator
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> TypeSymbol
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> TypeTag
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> U
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Unit
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> Universe
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> _$3
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> _$4
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> _$7
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> _toString
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> age
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> anyHash
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> apache
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> apply
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> arrayClass
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> asInstanceOf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> asType
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> attributes
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> augmentString
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> collect
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> com
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> conf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> config
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> createOrReplaceTempView
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> eq
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> finalizeHash
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> foreach
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> fs
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> functions
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> getClass
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> getClassLoader
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> getValuesMap
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> hadoop
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> immutable
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> implicits
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> isInstanceOf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> json
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> kryo
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> load
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> longHash
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> map
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> mapEncoder
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> materializeClassTag
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> materializeTypeTag
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> mix
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> name
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> newPeopleDF
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> newProductEncoder
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> newStringEncoder
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> org
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> package
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> path1
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> path2
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> peopleDF
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> printSchema
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> println
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> rddToDatasetHolder
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> read
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> refArrayOps
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> reflect
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> runtime
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> runtimeMirror
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> salary
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> sc
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> scala
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> setAppName
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> setConf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> setMaster
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> show
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> spark
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> split
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> sql
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> sqlContext
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> sqlTest
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> st
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> staticClass
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> teen
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> teenager
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> teenagerDF
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> textFile
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> toDF
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> toInt
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> toLong
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> toString
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> toTypeConstructor
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> trim
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> typedProductIterator
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> typesafe
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> universe
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> ||
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> $m
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> $m$untyped
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> $typecreator10
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> $typecreator2
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> $typecreator4
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> $typecreator6
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> $typecreator8
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> $u
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> +
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> <init>
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> ?0
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Any
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> AnyRef
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Array
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Boolean
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Categories
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Class
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> ClassLoader
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> ClassSymbol
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> ClassTag
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Config
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> ConfigFactory
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Configuration
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> DataFrame
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> DatasetHolder
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Departments
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Encoder
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> FileSystem
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Float
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Function1
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Int
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> JavaUniverse
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Mirror
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Nothing
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Object
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> OrderItems
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> OrderItemsDF
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Orders
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Path
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Predef
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Product
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Products
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> RDD
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> SQLContext
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Singleton
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> SparkConf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> SparkContext
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> String
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> StringOps
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> T
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> T0
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> TotalRevenueDailySQL
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Type
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> TypeCreator
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> TypeSymbol
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> TypeTag
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> U
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Unit
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> Universe
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> _$7
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> a
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> apache
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> appConf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> apply
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> args
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> asInstanceOf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> asType
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> augmentString
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> categories
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> com
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> conf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> config
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> delete
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> departments
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> exists
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> fs
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> functions
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> get
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> getClass
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> getClassLoader
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> getConfig
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> getString
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> hadoop
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> hadoopConfiguration
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> implicits
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> inpath
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> inpathExists
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> load
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> main
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> map
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> materializeClassTag
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> materializeTypeTag
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> newProductEncoder
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> ordersDF
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> org
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> outpath
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> outpathExists
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> package
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> println
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> products
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> rdd
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> rddToDatasetHolder
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> rec
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> reflect
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> registerTempTable
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> rpdSql
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> runtime
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> runtimeMirror
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> saveAsTextFile
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> sc
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> scala
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> setAppName
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> setConf
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> setMaster
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> spark
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> split
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> sql
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> sqlContext
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> sqlTest
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> staticClass
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> textFile
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> toDF
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> toFloat
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> toInt
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> toString
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> toTypeConstructor
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> typesafe
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> unary_!
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> universe
+product stamps:
+32 items
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\Categories$.class -> lastModified(1488439481644)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\Categories.class -> lastModified(1488439481671)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\Departments$.class -> lastModified(1488439481691)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\Departments.class -> lastModified(1488439481684)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\OrderItems$.class -> lastModified(1488439481700)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\OrderItems.class -> lastModified(1488439481710)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\Orders$.class -> lastModified(1488439481717)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\Orders.class -> lastModified(1488439481725)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\Products$.class -> lastModified(1488439481729)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\Products.class -> lastModified(1488439481741)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st$$anonfun$1.class -> lastModified(1488439481819)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st$$anonfun$2.class -> lastModified(1488439481826)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st$$anonfun$main$1.class -> lastModified(1488439481832)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st$$anonfun$main$2.class -> lastModified(1488439481837)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st$$anonfun$main$3.class -> lastModified(1488439481844)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st$$typecreator2$1.class -> lastModified(1488439481851)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st$.class -> lastModified(1488439481813)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st$Person$.class -> lastModified(1488439481859)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st$Person.class -> lastModified(1488439481866)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\st.class -> lastModified(1488439481806)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$anonfun$1.class -> lastModified(1488439481764)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$anonfun$2.class -> lastModified(1488439481768)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$anonfun$3.class -> lastModified(1488439481771)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$anonfun$4.class -> lastModified(1488439481777)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$anonfun$5.class -> lastModified(1488439481779)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$typecreator10$1.class -> lastModified(1488439481783)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$typecreator2$1.class -> lastModified(1488439481788)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$typecreator4$1.class -> lastModified(1488439481793)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$typecreator6$1.class -> lastModified(1488439481798)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$$typecreator8$1.class -> lastModified(1488439481801)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL$.class -> lastModified(1488439481757)
+D:\workspace\SparkSqlTest\target\scala-2.11\classes\sqlTest\TotalRevenueDailySQL.class -> lastModified(1488439481743)
+source stamps:
+7 items
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> hash(4eb4abc9e8a599c1c3aab8bcd0b2e7c3f617b02a)
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> hash(7d595a197b0957f95fc419711c75423a8b660761)
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> hash(a2f22aeb06a03e1fde6916dc91412d6c91a37d90)
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> hash(de2a370cde58e0615e763700cb6f657a5fbc63dc)
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> hash(e7ae42a40821e6e2c38d02cdede5b9ef8971307a)
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> hash(0baf939c1a81f264b722b2e1e3304cbe4b131061)
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> hash(ecfae4567d98099e8222c27a016d82cc12a7db18)
+binary stamps:
+8 items
+C:\Program Files\Java\jre1.8.0_102\lib\rt.jar -> lastModified(1479477410034)
+C:\Users\raouf.khan\.ivy2\cache\com.typesafe\config\bundles\config-1.3.1.jar -> lastModified(1474721599000)
+C:\Users\raouf.khan\.ivy2\cache\org.apache.hadoop\hadoop-common\jars\hadoop-common-2.2.0.jar -> lastModified(1381127427000)
+C:\Users\raouf.khan\.ivy2\cache\org.apache.spark\spark-catalyst_2.11\jars\spark-catalyst_2.11-2.1.0.jar -> lastModified(1481872148000)
+C:\Users\raouf.khan\.ivy2\cache\org.apache.spark\spark-core_2.11\jars\spark-core_2.11-2.1.0.jar -> lastModified(1481871925000)
+C:\Users\raouf.khan\.ivy2\cache\org.apache.spark\spark-sql_2.11\jars\spark-sql_2.11-2.1.0.jar -> lastModified(1481872304000)
+C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar -> lastModified(1457105192000)
+C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.8.jar -> lastModified(1457105200000)
+class names:
+8 items
+C:\Program Files\Java\jre1.8.0_102\lib\rt.jar -> java.lang.Object
+C:\Users\raouf.khan\.ivy2\cache\com.typesafe\config\bundles\config-1.3.1.jar -> com.typesafe.config.Config
+C:\Users\raouf.khan\.ivy2\cache\org.apache.hadoop\hadoop-common\jars\hadoop-common-2.2.0.jar -> org.apache.hadoop.fs.Path
+C:\Users\raouf.khan\.ivy2\cache\org.apache.spark\spark-catalyst_2.11\jars\spark-catalyst_2.11-2.1.0.jar -> org.apache.spark.sql.Encoders$
+C:\Users\raouf.khan\.ivy2\cache\org.apache.spark\spark-core_2.11\jars\spark-core_2.11-2.1.0.jar -> org.apache.spark.SparkConf
+C:\Users\raouf.khan\.ivy2\cache\org.apache.spark\spark-sql_2.11\jars\spark-sql_2.11-2.1.0.jar -> org.apache.spark.sql.Dataset
+C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar -> scala.runtime.AbstractFunction2
+C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.11.8.jar -> scala.reflect.api.TypeCreator
+internal apis:
+7 items
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw3ubJqQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAic3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwikX23XQABm5vdGlmeXNxAH4ADEV2VLJ0AAR3YWl0c3EAfgAM/tzn3XQADmNvcHkkZGVmYXVsdCQyc3EAfgAMwXEnmHQADSRhc0luc3RhbmNlT2ZzcQB+AAzA1m28dAAWY2F0ZWdvcnlfZGVwYXJ0bWVudF9pZHNxAH4ADKdiQDB0AAxwcm9kdWN0QXJpdHlzcQB+AAytBD+FdAAGZXF1YWxzc3EAfgAM6l6sI3QADWNhdGVnb3J5X25hbWVzcQB+AAwERHmodAAMYXNJbnN0YW5jZU9mc3EAfgAMzRiYT3QADHN5bmNocm9uaXplZHNxAH4ADNGdFop0AApDYXRlZ29yaWVzc3EAfgAMY+4FVnQADSRpc0luc3RhbmNlT2ZzcQB+AAz38seFdAAIY2FuRXF1YWxzcQB+AAwpbh8TdAANcHJvZHVjdFByZWZpeHNxAH4ADARuvLd0AAlub3RpZnlBbGxzcQB+AAxOX4KvdAAMaXNJbnN0YW5jZU9mc3EAfgAMHgCSsnQABjxpbml0PnNxAH4ADIUM4z50AAI9PXNxAH4ADD1TV+50AAVjbG9uZXNxAH4ADCeoikB0AAYkaW5pdCRzcQB+AAwhpG4vdAAOY29weSRkZWZhdWx0JDNzcQB+AAxsHpFsdAAEY29weXNxAH4ADCCS14Z0AAtjYXRlZ29yeV9pZHNxAH4ADF1LyG90AAh0b1N0cmluZ3NxAH4ADGm6BbF0AAIhPXNxAH4ADMd64VJ0AAhnZXRDbGFzc3NxAH4ADKo4CgN0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADFWrvzN0AAJuZXNxAH4ADCXyvHR0AAJlcXNxAH4ADI2h6y90AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAxT4GMOdAACIyNzcQB+AAx8qbr7dAAIZmluYWxpemVzcQB+AAzGYB8rdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAwjfoZndAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBbeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAASc3FsVGVzdC5DYXRlZ29yaWVzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AHNzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AW0wACWluaGVyaXRlZHEAfgBbTAAHcGFyZW50c3EAfgBbeHEAfgB4c3EAfgBzdXEAfgBWAAAAAHNxAH4Ac3VxAH4AVgAAAABzcQB+AHN1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHd0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHdzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJFzcQB+AIRxAH4Ah3NxAH4AiHNxAH4Ai3VxAH4AjgAAAANzcQB+AJB0AARqYXZhc3EAfgCQdAACaW9xAH4AlXNxAH4AhHQAB1Byb2R1Y3RxAH4AinNxAH4AhHQABkVxdWFsc3EAfgCKc3EAfgCEdAAGT2JqZWN0c3EAfgCIc3EAfgCLdXEAfgCOAAAAA3NxAH4AkHEAfgCbc3EAfgCQdAAEbGFuZ3EAfgCVc3EAfgCEdAADQW55cQB+AIp1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAdzcWxUZXN0c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFajef7sHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADNEOlx3b3Jrc3BhY2VcU3BhcmtTcWxUZXN0XHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABROtKvJ6KWZwcOquLzQsufD9hewKg==
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwKaF3IQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAgc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwgFG/TXQABm5vdGlmeXNxAH4ADC4Hn+x0AAR3YWl0c3EAfgAMMTEmOnQADmNvcHkkZGVmYXVsdCQyc3EAfgAMpM9KQnQADSRhc0luc3RhbmNlT2ZzcQB+AAz5nWQndAAMcHJvZHVjdEFyaXR5c3EAfgAMJfu1nnQABmVxdWFsc3NxAH4ADE1YdzB0AAxhc0luc3RhbmNlT2ZzcQB+AAxvt0SZdAAPZGVwYXJ0bWVudF9uYW1lc3EAfgAMLbACVXQAC0RlcGFydG1lbnRzc3EAfgAM4oQKHHQADHN5bmNocm9uaXplZHNxAH4ADPSUjqt0AA0kaXNJbnN0YW5jZU9mc3EAfgAML0GkBXQADWRlcGFydG1lbnRfaWRzcQB+AAxflM/ldAAIY2FuRXF1YWxzcQB+AAyCpFyOdAANcHJvZHVjdFByZWZpeHNxAH4ADPKacrx0AAlub3RpZnlBbGxzcQB+AAzSGdlhdAAMaXNJbnN0YW5jZU9mc3EAfgAMsvkipXQABjxpbml0PnNxAH4ADEDOq1h0AAI9PXNxAH4ADFIGQwl0AAVjbG9uZXNxAH4ADG1hsf90AAYkaW5pdCRzcQB+AAzVHHNAdAAEY29weXNxAH4ADBQ6Izl0AAh0b1N0cmluZ3NxAH4ADCkX+eN0AAIhPXNxAH4ADJqhqop0AAhnZXRDbGFzc3NxAH4ADPVO1ZZ0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADMUcaod0AAJuZXNxAH4ADKnei3J0AAJlcXNxAH4ADIkkw+h0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAx2+ICwdAACIyNzcQB+AAxz6EDAdAAIZmluYWxpemVzcQB+AAxToMsldAAOcHJvZHVjdEVsZW1lbnRzcQB+AAy2xNandAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBXeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAATc3FsVGVzdC5EZXBhcnRtZW50c3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBvc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFdMAAlpbmhlcml0ZWRxAH4AV0wAB3BhcmVudHNxAH4AV3hxAH4AdHNxAH4Ab3VxAH4AUgAAAABzcQB+AG91cQB+AFIAAAAAc3EAfgBvdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAZzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBzdAAMU2VyaWFsaXphYmxlc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBzc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCNc3EAfgCAcQB+AINzcQB+AIRzcQB+AId1cQB+AIoAAAADc3EAfgCMdAAEamF2YXNxAH4AjHQAAmlvcQB+AJFzcQB+AIB0AAdQcm9kdWN0cQB+AIZzcQB+AIB0AAZFcXVhbHNxAH4AhnNxAH4AgHQABk9iamVjdHNxAH4AhHNxAH4Ah3VxAH4AigAAAANzcQB+AIxxAH4Al3NxAH4AjHQABGxhbmdxAH4AkXNxAH4AgHQAA0FueXEAfgCGdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAHc3FsVGVzdHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWo3n+7B1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAAzRDpcd29ya3NwYWNlXFNwYXJrU3FsVGVzdFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUfVlaGXsJV/lfxBlxHHVCOotmB2E=
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw9MnFPAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAoc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwEnK6vXQABm5vdGlmeXNxAH4ADEg5rqh0AAR3YWl0c3EAfgAMZFMAj3QADmNvcHkkZGVmYXVsdCQyc3EAfgAMuEgvb3QADSRhc0luc3RhbmNlT2ZzcQB+AAxPDQ/pdAAOY29weSRkZWZhdWx0JDVzcQB+AAxgQZ+udAAMcHJvZHVjdEFyaXR5c3EAfgAMiamB+XQABmVxdWFsc3NxAH4ADHZFBap0AA1vcmRlcl9pdGVtX2lkc3EAfgAMHLcIFnQADGFzSW5zdGFuY2VPZnNxAH4ADNjriop0AAxzeW5jaHJvbml6ZWRzcQB+AAxtBEx4dAANJGlzSW5zdGFuY2VPZnNxAH4ADHEQTWZ0AAhjYW5FcXVhbHNxAH4ADLK8G010AA5jb3B5JGRlZmF1bHQkNHNxAH4ADHXXCxF0AA1wcm9kdWN0UHJlZml4c3EAfgAMbsFGCXQACW5vdGlmeUFsbHNxAH4ADKdKuMh0ABVvcmRlcl9pdGVtX3Byb2R1Y3RfaWRzcQB+AAwznfDndAAMaXNJbnN0YW5jZU9mc3EAfgAMBTXrmHQAE29yZGVyX2l0ZW1fb3JkZXJfaWRzcQB+AAwaRJMvdAAQb3JkZXJfaXRlbV9wcmljZXNxAH4ADNEqMi90AAY8aW5pdD5zcQB+AAyapbO6dAAKT3JkZXJJdGVtc3NxAH4ADIa5G6J0AAI9PXNxAH4ADPWZQOh0AAVjbG9uZXNxAH4ADAlrq810AAYkaW5pdCRzcQB+AAykEOm7dAAOY29weSRkZWZhdWx0JDNzcQB+AAxAaezUdAAEY29weXNxAH4ADGa6GRV0AAh0b1N0cmluZ3NxAH4ADBjuEKR0AAIhPXNxAH4ADE9i+2N0ABNvcmRlcl9pdGVtX3N1YnRvdGFsc3EAfgAMd4lMMXQACGdldENsYXNzc3EAfgAMdUlFZ3QAE29yZGVyX2l0ZW1fcXVhbnRpdHlzcQB+AAz2bdZ5dAAOY29weSRkZWZhdWx0JDFzcQB+AAxwiPGLdAAOY29weSRkZWZhdWx0JDZzcQB+AAw19ze0dAACbmVzcQB+AAxqSAEtdAACZXFzcQB+AAzrhahDdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAM6TL3X3QAAiMjc3EAfgAM6j8pMXQACGZpbmFsaXplc3EAfgAMmrjSl3QADnByb2R1Y3RFbGVtZW50c3EAfgAMfbspk3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AZ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAEnNxbFRlc3QuT3JkZXJJdGVtc3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgB/c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGdMAAlpbmhlcml0ZWRxAH4AZ0wAB3BhcmVudHNxAH4AZ3hxAH4AhHNxAH4Af3VxAH4AYgAAAABzcQB+AH91cQB+AGIAAAAAc3EAfgB/dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAZzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCDdAAMU2VyaWFsaXphYmxlc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCDc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCdc3EAfgCQcQB+AJNzcQB+AJRzcQB+AJd1cQB+AJoAAAADc3EAfgCcdAAEamF2YXNxAH4AnHQAAmlvcQB+AKFzcQB+AJB0AAdQcm9kdWN0cQB+AJZzcQB+AJB0AAZFcXVhbHNxAH4AlnNxAH4AkHQABk9iamVjdHNxAH4AlHNxAH4Al3VxAH4AmgAAAANzcQB+AJxxAH4Ap3NxAH4AnHQABGxhbmdxAH4AoXNxAH4AkHQAA0FueXEAfgCWdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAHc3FsVGVzdHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWo3n+7B1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAAzRDpcd29ya3NwYWNlXFNwYXJrU3FsVGVzdFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUovIq6wagPh/eaRbckUEtbJGjfZA=
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwPKH29AAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAkc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwvrh0kHQABm5vdGlmeXNxAH4ADCv4whx0AAhvcmRlcl9pZHNxAH4ADK4hDY90AAR3YWl0c3EAfgAMROu8aHQADmNvcHkkZGVmYXVsdCQyc3EAfgAMhneUlnQADSRhc0luc3RhbmNlT2ZzcQB+AAzRe6wRdAAMcHJvZHVjdEFyaXR5c3EAfgAM/pMk0HQABmVxdWFsc3NxAH4ADPlb+aN0AAxhc0luc3RhbmNlT2ZzcQB+AAyPrPqVdAARb3JkZXJfY3VzdG9tZXJfaWRzcQB+AAzAAtqHdAAMc3luY2hyb25pemVkc3EAfgAM2j0UcnQADSRpc0luc3RhbmNlT2ZzcQB+AAx6q29RdAAIY2FuRXF1YWxzcQB+AAw5o1ssdAAOY29weSRkZWZhdWx0JDRzcQB+AAwEkl8ndAANcHJvZHVjdFByZWZpeHNxAH4ADLxpl/d0AAlub3RpZnlBbGxzcQB+AAzpQuDZdAAMaXNJbnN0YW5jZU9mc3EAfgAMrUeONXQABjxpbml0PnNxAH4ADF8cbOd0AAxvcmRlcl9zdGF0dXNzcQB+AAw1++4fdAACPT1zcQB+AAyAKEVodAAKb3JkZXJfZGF0ZXNxAH4ADJHRnCp0AAVjbG9uZXNxAH4ADE18ATB0AAYkaW5pdCRzcQB+AAz51rXwdAAOY29weSRkZWZhdWx0JDNzcQB+AAzyGEy3dAAEY29weXNxAH4ADIubsG10AAh0b1N0cmluZ3NxAH4ADHZiuzl0AAIhPXNxAH4ADJ+TMPZ0AAZPcmRlcnNzcQB+AAyIB2pYdAAIZ2V0Q2xhc3NzcQB+AAxzDvZ+dAAOY29weSRkZWZhdWx0JDFzcQB+AAycxBbSdAACbmVzcQB+AAz4qcRWdAACZXFzcQB+AAyaldN0dAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMsdXlN3QAAiMjc3EAfgAM4W/L5XQACGZpbmFsaXplc3EAfgAMbql1QXQADnByb2R1Y3RFbGVtZW50c3EAfgAMVONCHHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AX3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQADnNxbFRlc3QuT3JkZXJzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AHdzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AX0wACWluaGVyaXRlZHEAfgBfTAAHcGFyZW50c3EAfgBfeHEAfgB8c3EAfgB3dXEAfgBaAAAAAHNxAH4Ad3VxAH4AWgAAAABzcQB+AHd1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AHt0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHtzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJVzcQB+AIhxAH4Ai3NxAH4AjHNxAH4Aj3VxAH4AkgAAAANzcQB+AJR0AARqYXZhc3EAfgCUdAACaW9xAH4AmXNxAH4AiHQAB1Byb2R1Y3RxAH4AjnNxAH4AiHQABkVxdWFsc3EAfgCOc3EAfgCIdAAGT2JqZWN0c3EAfgCMc3EAfgCPdXEAfgCSAAAAA3NxAH4AlHEAfgCfc3EAfgCUdAAEbGFuZ3EAfgCZc3EAfgCIdAADQW55cQB+AI51cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAdzcWxUZXN0c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFajef7sHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADNEOlx3b3Jrc3BhY2VcU3BhcmtTcWxUZXN0XHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTeKjcM3ljgYV52NwDLb2V6X7xj3A==
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwnCcqDwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAoc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwl/wo5nQADXByb2R1Y3RfcHJpY2VzcQB+AAySYnWddAAGbm90aWZ5c3EAfgAM1j8j2XQABHdhaXRzcQB+AAwiEud5dAAOY29weSRkZWZhdWx0JDJzcQB+AAzFZqa6dAANJGFzSW5zdGFuY2VPZnNxAH4ADBfe1zZ0AA5jb3B5JGRlZmF1bHQkNXNxAH4ADJqrd7d0AAxwcm9kdWN0QXJpdHlzcQB+AAyH1OQQdAAGZXF1YWxzc3EAfgAMbzkkwnQAE3Byb2R1Y3RfZGVzY3JpcHRpb25zcQB+AAy6qqUTdAAMYXNJbnN0YW5jZU9mc3EAfgAMWBTo4nQADHN5bmNocm9uaXplZHNxAH4ADObvfKV0AA0kaXNJbnN0YW5jZU9mc3EAfgAMhTGT+3QACGNhbkVxdWFsc3EAfgAMQmIJlXQADmNvcHkkZGVmYXVsdCQ0c3EAfgAMCM8nWnQADXByb2R1Y3RQcmVmaXhzcQB+AAzeCgMBdAAJbm90aWZ5QWxsc3EAfgAMxRh82XQADGlzSW5zdGFuY2VPZnNxAH4ADP//bkZ0AA1wcm9kdWN0X2ltYWdlc3EAfgAM03SSWHQABjxpbml0PnNxAH4ADKI4vyF0AAxwcm9kdWN0X25hbWVzcQB+AAzn+oqsdAACPT1zcQB+AAylYLjadAAFY2xvbmVzcQB+AAxCKPG2dAAGJGluaXQkc3EAfgAM9tmh03QACnByb2R1Y3RfaWRzcQB+AAxyMkWJdAAOY29weSRkZWZhdWx0JDNzcQB+AAwjHv3ndAAEY29weXNxAH4ADB+p6Ll0AAh0b1N0cmluZ3NxAH4ADHGUID50ABNwcm9kdWN0X2NhdGVnb3J5X2lkc3EAfgAMnhpcwHQAAiE9c3EAfgAMUg3vInQACGdldENsYXNzc3EAfgAMtTTrlnQADmNvcHkkZGVmYXVsdCQxc3EAfgAMzBGGYHQADmNvcHkkZGVmYXVsdCQ2c3EAfgAMkn65/3QAAm5lc3EAfgAMI/pvuXQAAmVxc3EAfgAMS29OyHQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADMZ3fEN0AAIjI3NxAH4ADD/Ps5J0AAhmaW5hbGl6ZXNxAH4ADJeaWYt0AA5wcm9kdWN0RWxlbWVudHNxAH4ADADu4et0AAhoYXNoQ29kZXNxAH4ADCGJyuJ0AAhQcm9kdWN0c3NyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABBzcWxUZXN0LlByb2R1Y3RzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AH9zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AZ0wACWluaGVyaXRlZHEAfgBnTAAHcGFyZW50c3EAfgBneHEAfgCEc3EAfgB/dXEAfgBiAAAAAHNxAH4Af3VxAH4AYgAAAABzcQB+AH91cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AIN0AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AINzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJ1zcQB+AJBxAH4Ak3NxAH4AlHNxAH4Al3VxAH4AmgAAAANzcQB+AJx0AARqYXZhc3EAfgCcdAACaW9xAH4AoXNxAH4AkHQAB1Byb2R1Y3RxAH4AlnNxAH4AkHQABkVxdWFsc3EAfgCWc3EAfgCQdAAGT2JqZWN0c3EAfgCUc3EAfgCXdXEAfgCaAAAAA3NxAH4AnHEAfgCnc3EAfgCcdAAEbGFuZ3EAfgChc3EAfgCQdAADQW55cQB+AJZ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAdzcWxUZXN0c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFajef7sHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADNEOlx3b3Jrc3BhY2VcU3BhcmtTcWxUZXN0XHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTnrkKkCCHm4sONAs3t5bnviXEweg==
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwN1QVHAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAmc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwyznISnQABm5vdGlmeXNxAH4ADLk8buZ0AAd1bmFwcGx5c3EAfgAMa/OPzHQAAnN0c3EAfgAMJ8bN1XQAB2N1cnJpZWRzcQB+AAxQbhx9dAAEbmFtZXNxAH4ADDFA0ut0AAR3YWl0c3EAfgAMyY6donQADmNvcHkkZGVmYXVsdCQyc3EAfgAMO7y5SHQADSRhc0luc3RhbmNlT2ZzcQB+AAwjmA4wdAAMcHJvZHVjdEFyaXR5c3EAfgAM1+fxCnQABmVxdWFsc3NxAH4ADN0c5bZ0AAxhc0luc3RhbmNlT2ZzcQB+AAw10EsIdAAMc3luY2hyb25pemVkc3EAfgAMFLDs2nQADSRpc0luc3RhbmNlT2ZzcQB+AAyOBAhwdAAGdHVwbGVkc3EAfgAMouhBRXQACGNhbkVxdWFsc3EAfgAMVv+US3QABG1haW5zcQB+AAykn8LwdAANcHJvZHVjdFByZWZpeHNxAH4ADI3KyFZ0AANhZ2VzcQB+AAxXOg9bdAAJbm90aWZ5QWxsc3EAfgAMubZplnQADGlzSW5zdGFuY2VPZnNxAH4ADBLM5rN0AAY8aW5pdD5zcQB+AAxw+1AqdAAGUGVyc29uc3EAfgAM9LTTunQABWFwcGx5c3EAfgAMNSIW2HQAAj09c3EAfgAMhZQQgHQABWNsb25lc3EAfgAMbU+XbnQABiRpbml0JHNxAH4ADJGEt8x0AARjb3B5c3EAfgAMRPLK33QACHRvU3RyaW5nc3EAfgAMdUvQCnQAAiE9c3EAfgAM3pEfgXQACGdldENsYXNzc3EAfgAMmXy/V3QADmNvcHkkZGVmYXVsdCQxc3EAfgAMOpQ7nHQAAm5lc3EAfgAMQ/Ihh3QAAmVxc3EAfgAMtnhroHQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADATy4yR0AAIjI3NxAH4ADD3YDtZ0AAhmaW5hbGl6ZXNxAH4ADBPvVJJ0AA5wcm9kdWN0RWxlbWVudHNxAH4ADE8v/ZJ0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AGN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0AApzcWxUZXN0LnN0dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgB7c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGNMAAlpbmhlcml0ZWRxAH4AY0wAB3BhcmVudHNxAH4AY3hxAH4AgHNxAH4Ae3VxAH4AXgAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AZHEAfgBtdXEAfgBuAAAAAHNxAH4AcABxAH4ALXVxAH4AcwAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB/dAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Af3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Am3VyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AIh4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AHZ0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AI9bAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AH9zcQB+AI50AAVBcnJheXEAfgCUdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AI50AAZTdHJpbmdzcQB+AJJzcQB+AJV1cQB+AJgAAAADc3EAfgCadAAEamF2YXNxAH4AmnQABGxhbmdxAH4An3NxAH4Ae3VxAH4AXgAAAABzcQB+AHt1cQB+ALMAAAACc3EAfgCOdAAGT2JqZWN0cQB+ALdzcQB+AI50AANBbnlxAH4AlHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAB3NxbFRlc3RzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVqN5/uwdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAM0Q6XHdvcmtzcGFjZVxTcGFya1NxbFRlc3RcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFAuvk5wagfJktyKy4eMwTL5LExBh
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwYFad9QAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwHDunDHQABm5vdGlmeXNxAH4ADDqig/90AAR3YWl0c3EAfgAMi9/n9nQADSRhc0luc3RhbmNlT2ZzcQB+AAxhOkvMdAAGZXF1YWxzc3EAfgAM4ABYanQADGFzSW5zdGFuY2VPZnNxAH4ADFHMxvt0AAxzeW5jaHJvbml6ZWRzcQB+AAwS/v76dAANJGlzSW5zdGFuY2VPZnNxAH4ADPC3p6R0AARtYWluc3EAfgAMzESqTXQACW5vdGlmeUFsbHNxAH4ADMycR3x0AAxpc0luc3RhbmNlT2ZzcQB+AAxcND8xdAAUVG90YWxSZXZlbnVlRGFpbHlTUUxzcQB+AAzC82GYdAACPT1zcQB+AAwZbVn8dAAFY2xvbmVzcQB+AAxzXqzhdAAIdG9TdHJpbmdzcQB+AAyEbiczdAACIT1zcQB+AAzC0NmkdAAIZ2V0Q2xhc3NzcQB+AAz4y/IGdAACbmVzcQB+AAwlr6ZSdAACZXFzcQB+AAxx5bsodAACIyNzcQB+AAx0xkz/dAAIZmluYWxpemVzcQB+AAwOpk6cdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAcc3FsVGVzdC5Ub3RhbFJldmVudWVEYWlseVNRTHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AF5zcQB+AFl1cQB+ADwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEJxAH4AS3VxAH4ATAAAAABzcQB+AE4AcQB+AB11cQB+AFEAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AXXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AF1zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHl1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBmeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBUdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBtWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBdc3EAfgBsdAAFQXJyYXlxAH4AcnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBsdAAGU3RyaW5nc3EAfgBwc3EAfgBzdXEAfgB2AAAAA3NxAH4AeHQABGphdmFzcQB+AHh0AARsYW5ncQB+AH1zcQB+AFl1cQB+ADwAAAAAc3EAfgBZdXEAfgCRAAAAAnNxAH4AbHQABk9iamVjdHEAfgCVc3EAfgBsdAADQW55cQB+AHJ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAdzcWxUZXN0c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFajef7sHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADNEOlx3b3Jrc3BhY2VcU3BhcmtTcWxUZXN0XHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTs+uRWfZgJnoIiwnoBbYLMEqfbGA==
+external apis:
+0 items
+source infos:
+7 items
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala -> 
+AAAAAAAAAAA=
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala -> 
+AAAAAAAAAAA=
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala -> 
+AAAAAAAAAAA=
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala -> 
+AAAAAAAAAAA=
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala -> 
+AAAAAAAAAAA=
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala -> 
+AAAAAAAAAAA=
+D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWm5x+iJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAM0Q6XHdvcmtzcGFjZVxTcGFya1NxbFRlc3RcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWo3n+7B1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAM0Q6XHdvcmtzcGFjZVxTcGFya1NxbFRlc3RcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS8=

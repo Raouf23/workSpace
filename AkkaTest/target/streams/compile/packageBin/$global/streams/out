@@ -1,0 +1,15 @@
+[0m[[0minfo[0m] [0mPackaging D:\workspace\AkkaTest\target\scala-2.11\akkatest_2.11-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	akkaTest\HelloActor$$anonfun$receive$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\HelloActor$$anonfun$receive$1.class[0m
+[0m[[0mdebug[0m] [0m	akkaTest\HelloActor.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\HelloActor.class[0m
+[0m[[0mdebug[0m] [0m	akkaTest\main$.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\main$.class[0m
+[0m[[0mdebug[0m] [0m	akkaTest\main$delayedInit$body.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\main$delayedInit$body.class[0m
+[0m[[0mdebug[0m] [0m	akkaTest\main.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest\main.class[0m
+[0m[[0mdebug[0m] [0m	akkaTest[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\AkkaTest\target\scala-2.11\classes\akkaTest[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

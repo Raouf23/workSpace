@@ -1,0 +1,15 @@
+language: java
+
+cache:
+  directories:
+    - $HOME/.m2
+    - $HOME/.zinc
+
+install:
+  - java -XX:+PrintFlagsFinal -version
+  - mvn --version
+
+script:
+  - mvn verify site --update-snapshots --settings .travis.settings.xml -e
+
+jdk: oraclejdk8

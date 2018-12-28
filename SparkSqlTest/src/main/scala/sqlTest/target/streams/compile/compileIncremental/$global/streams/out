@@ -1,0 +1,107 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Departments.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Orders.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Products.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\Categories.scala, D:\workspace\SparkSqlTest\src\main\scala\sqlTest\OrderItems.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 7 sources: invalidated sources (7) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 7 Scala sources to D:\workspace\SparkSqlTest\src\main\scala\sqlTest\target\scala-2.10\classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.13:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 3646f582, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	C:\Program Files\Java\jre1.8.0_102\lib\resources.jar;C:\Program Files\Java\jre1.8.0_102\lib\rt.jar;C:\Program Files\Java\jre1.8.0_102\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_102\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_102\lib\jce.jar;C:\Program Files\Java\jre1.8.0_102\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_102\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_102\classes;C:\Users\raouf.khan\.sbt\boot\scala-2.10.6\lib\scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	D:\workspace\SparkSqlTest\src\main\scala\sqlTest\target\scala-2.10\classes[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkConf[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala:6: object typesafe is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.typesafe.config.ConfigFactory[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala:8: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkConf[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala:9: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala:11: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.hadoop.fs._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala:12: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.sql._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala:13: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.sql.functions._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala:14: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkConf[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala:20: not found: value ConfigFactory[0m
+[0m[[31merror[0m] [0m      val appConf = ConfigFactory.load()[0m
+[0m[[31merror[0m] [0m                    ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala:21: not found: type SparkConf[0m
+[0m[[31merror[0m] [0m      val conf = new SparkConf().setAppName("Total Revenue-daily-SparkSQl").setMaster(appConf.getConfig(args(2)).getString("executionmode"))[0m
+[0m[[31merror[0m] [0m                     ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala:23: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m      val sc = new SparkContext(conf)[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala:24: not found: type SQLContext[0m
+[0m[[31merror[0m] [0m      val sqlContext = new SQLContext(sc)[0m
+[0m[[31merror[0m] [0m                           ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\TotalRevenueDailySQL.scala:32: not found: value FileSystem[0m
+[0m[[31merror[0m] [0m      val fs = FileSystem.get(sc.hadoopConfiguration)[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala:3: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkConf[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala:4: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala:6: object typesafe is not a member of package com[0m
+[0m[[31merror[0m] [0mimport com.typesafe.config.ConfigFactory[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala:8: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkConf[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala:9: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.SparkContext[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala:11: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.hadoop.fs._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala:12: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.sql._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala:13: object apache is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.apache.spark.sql.functions._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala:24: not found: value ConfigFactory[0m
+[0m[[31merror[0m] [0m     val appConf = ConfigFactory.load()[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala:25: not found: type SparkConf[0m
+[0m[[31merror[0m] [0m    val conf = new SparkConf().setAppName("Spark-Sql-TESt").setMaster("local")[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala:27: not found: type SparkContext[0m
+[0m[[31merror[0m] [0m    val sc = new SparkContext(conf)[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0mD:\workspace\SparkSqlTest\src\main\scala\sqlTest\st.scala:28: not found: type SQLContext[0m
+[0m[[31merror[0m] [0m    val sqlContext = new SQLContext(sc)[0m
+[0m[[31merror[0m] [0m                         ^[0m
+[0m[[31merror[0m] [0m26 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m

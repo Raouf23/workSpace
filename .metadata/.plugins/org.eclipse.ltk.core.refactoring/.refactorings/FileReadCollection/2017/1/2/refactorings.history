@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.tavant.frc.WordCountExample&apos; to &apos;CharacterCountExample&apos;&#x0D;&#x0A;- Original project: &apos;FileReadCollection&apos;&#x0D;&#x0A;- Original element: &apos;com.tavant.frc.WordCountExample&apos;&#x0D;&#x0A;- Renamed element: &apos;com.tavant.frc.CharacterCountExample&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;WordCountExample&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.tavant.frc{WordCountExample.java[WordCountExample" matchStrategy="1" name="CharacterCountExample" qualified="false" references="true" similarDeclarations="false" stamp="1484025336972" textual="false" version="1.0"/>
+</session>

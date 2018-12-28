@@ -1,0 +1,19 @@
+[0m[[0minfo[0m] [0mPackaging D:\workspace\RetailTest\target\scala-2.11\retailtest_2.11-0.1.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	retail\OrderAccu$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\RetailTest\target\scala-2.11\classes\retail\OrderAccu$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	retail[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\RetailTest\target\scala-2.11\classes\retail[0m
+[0m[[0mdebug[0m] [0m	retail\OrderAccu$.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\RetailTest\target\scala-2.11\classes\retail\OrderAccu$.class[0m
+[0m[[0mdebug[0m] [0m	retail\OrderAccu$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\RetailTest\target\scala-2.11\classes\retail\OrderAccu$$anonfun$3.class[0m
+[0m[[0mdebug[0m] [0m	application.properties[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\RetailTest\target\scala-2.11\classes\application.properties[0m
+[0m[[0mdebug[0m] [0m	retail\OrderAccu$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\RetailTest\target\scala-2.11\classes\retail\OrderAccu$$anonfun$2.class[0m
+[0m[[0mdebug[0m] [0m	retail\OrderAccu$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\RetailTest\target\scala-2.11\classes\retail\OrderAccu$$anonfun$4.class[0m
+[0m[[0mdebug[0m] [0m	retail\OrderAccu.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\RetailTest\target\scala-2.11\classes\retail\OrderAccu.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

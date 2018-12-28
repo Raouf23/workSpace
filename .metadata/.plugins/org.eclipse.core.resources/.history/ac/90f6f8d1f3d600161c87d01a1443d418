@@ -1,0 +1,49 @@
+package com.tavant.frc;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map.Entry;
+
+public class WordCountExample {
+
+	public static void main(String[] args) throws IOException
+	{
+		final String FileName = "D:\\Mydata\\WordCount.txt";
+		BufferedReader br = new BufferedReader(new FileReader(FileName));
+		String ch;
+		HashMap<Character, Integer> hs = new HashMap<>();
+		
+		while((ch=br.readLine()) != null)
+		{
+			char[] s = ch.replaceAll("\\s", "").toLowerCase().toCharArray();
+			for (char c: s)
+			{
+				Integer charCountAsValue =1;
+				if(hs.containsKey(c))
+				{
+					charCountAsValue = hs.get(c);
+					hs.put(c, ++charCountAsValue);
+				}
+				else
+				{
+					hs.put(c, charCountAsValue);
+				}
+								
+			}
+		}
+		
+		for(Entry<Character, Integer> entry: hs.entrySet())
+		{
+			char char1 =entry.getKey();
+			int value1 = entry.getValue();
+			System.out.println(char1 + "\t" + value1);
+		}
+		
+		br.close();
+		
+
+	}
+
+}

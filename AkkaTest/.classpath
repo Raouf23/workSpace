@@ -1,0 +1,16 @@
+<classpath>
+  <classpathentry kind="src" path="src\main\scala"/>
+  <classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+  <classpathentry sourcepath="C:\Users\raouf.khan\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\srcs\akka-actor_2.10-2.3.16-sources.jar" kind="lib" path="C:\Users\raouf.khan\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\jars\akka-actor_2.10-2.3.16.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\raouf.khan\.ivy2\cache\com.typesafe.akka\akka-actor_2.10\docs\akka-actor_2.10-2.3.16-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry sourcepath="C:\Users\raouf.khan\.ivy2\cache\com.typesafe\config\srcs\config-1.2.1-sources.jar" kind="lib" path="C:\Users\raouf.khan\.ivy2\cache\com.typesafe\config\bundles\config-1.2.1.jar">
+    <attributes>
+      <attribute name="javadoc_location" value="jar:file:C:\Users\raouf.khan\.ivy2\cache\com.typesafe\config\docs\config-1.2.1-javadoc.jar!/"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+  <classpathentry kind="output" path="bin"/>
+</classpath>

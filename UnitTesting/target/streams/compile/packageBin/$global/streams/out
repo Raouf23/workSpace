@@ -1,0 +1,19 @@
+[0m[[0minfo[0m] [0mPackaging D:\workspace\UnitTesting\target\scala-2.10\unittesting_2.10-0.1.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	unitTest\NetworkStream$.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\UnitTesting\target\scala-2.10\classes\unitTest\NetworkStream$.class[0m
+[0m[[0mdebug[0m] [0m	unitTest\NetworkStream$$anonfun$main$3.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\UnitTesting\target\scala-2.10\classes\unitTest\NetworkStream$$anonfun$main$3.class[0m
+[0m[[0mdebug[0m] [0m	unitTest\NetworkStream$$anonfun$main$2.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\UnitTesting\target\scala-2.10\classes\unitTest\NetworkStream$$anonfun$main$2.class[0m
+[0m[[0mdebug[0m] [0m	unitTest\testing1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\UnitTesting\target\scala-2.10\classes\unitTest\testing1.class[0m
+[0m[[0mdebug[0m] [0m	unitTest\NetworkStream$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\UnitTesting\target\scala-2.10\classes\unitTest\NetworkStream$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	unitTest\NetworkStream.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\UnitTesting\target\scala-2.10\classes\unitTest\NetworkStream.class[0m
+[0m[[0mdebug[0m] [0m	unitTest[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\UnitTesting\target\scala-2.10\classes\unitTest[0m
+[0m[[0mdebug[0m] [0m	unitTest\testing1$.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\UnitTesting\target\scala-2.10\classes\unitTest\testing1$.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

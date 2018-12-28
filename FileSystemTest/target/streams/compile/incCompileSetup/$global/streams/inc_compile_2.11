@@ -1,0 +1,559 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> D:\workspace\FileSystemTest\target\scala-2.11\classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+29 items
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo$$anonfun$1$$anonfun$2.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo$$anonfun$1.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo$$anonfun$3.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo$$anonfun$4.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo$$anonfun$getListOfDirectory$1.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo$$anonfun$getListOfDirectory$2.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo$$anonfun$getListOfFiles$1.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo$.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo$delayedInit$body.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\DataValidation$$anonfun$com$rauf$learn$fs$DataValidation$$isNumeric$1$1.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\DataValidation$$anonfun$main$1$$anonfun$apply$1.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\DataValidation$$anonfun$main$1.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\DataValidation$.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\DataValidation.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\Driver$.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\Driver$delayedInit$body.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\Driver.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\fsTest$$anonfun$main$1.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\fsTest$$anonfun$main$2$$anonfun$apply$1.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\fsTest$$anonfun$main$2.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\fsTest$$anonfun$main$3.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\fsTest$.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\fsTest.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\NewtonsMethod$$anonfun$1.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\NewtonsMethod$$anonfun$2.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\NewtonsMethod$.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\NewtonsMethod.class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\Stock.class
+binary dependencies:
+16 items
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> C:\Users\raouf.khan\.ivy2\cache\com.typesafe\config\bundles\config-1.3.1.jar
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> C:\Users\raouf.khan\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.9.jar
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> C:\Users\raouf.khan\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-2.0.jar
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> C:\Users\raouf.khan\.ivy2\cache\com.typesafe\config\bundles\config-1.3.1.jar
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+1 items
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+29 items
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> com.rauf.learn.fs.CSVDemo
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> com.rauf.learn.fs.CSVDemo$
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> com.rauf.learn.fs.CSVDemo$$anonfun$1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> com.rauf.learn.fs.CSVDemo$$anonfun$1$$anonfun$2
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> com.rauf.learn.fs.CSVDemo$$anonfun$3
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> com.rauf.learn.fs.CSVDemo$$anonfun$4
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> com.rauf.learn.fs.CSVDemo$$anonfun$getListOfDirectory$1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> com.rauf.learn.fs.CSVDemo$$anonfun$getListOfDirectory$2
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> com.rauf.learn.fs.CSVDemo$$anonfun$getListOfFiles$1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> com.rauf.learn.fs.CSVDemo$delayedInit$body
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> com.rauf.learn.fs.DataValidation
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> com.rauf.learn.fs.DataValidation$
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> com.rauf.learn.fs.DataValidation$$anonfun$com$rauf$learn$fs$DataValidation$$isNumeric$1$1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> com.rauf.learn.fs.DataValidation$$anonfun$main$1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> com.rauf.learn.fs.DataValidation$$anonfun$main$1$$anonfun$apply$1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> com.rauf.learn.fs.Driver
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> com.rauf.learn.fs.Driver$
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> com.rauf.learn.fs.Driver$delayedInit$body
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> com.rauf.learn.fs.fsTest
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> com.rauf.learn.fs.fsTest$
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> com.rauf.learn.fs.fsTest$$anonfun$main$1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> com.rauf.learn.fs.fsTest$$anonfun$main$2
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> com.rauf.learn.fs.fsTest$$anonfun$main$2$$anonfun$apply$1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> com.rauf.learn.fs.fsTest$$anonfun$main$3
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> com.rauf.learn.fs.NewtonsMethod
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> com.rauf.learn.fs.NewtonsMethod$
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> com.rauf.learn.fs.NewtonsMethod$$anonfun$1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> com.rauf.learn.fs.NewtonsMethod$$anonfun$2
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> com.rauf.learn.fs.Stock
+used names:
+352 items
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> &&
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> <init>
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> <repeated>
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> Any
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> AnyRef
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> App
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> Array
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> ArrayOps
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> B
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> Boolean
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> BufferedSource
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> CSVDemo
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> CanBuildFrom
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> Class
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> ClassTag
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> Codec
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> File
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> Function1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> Int
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> Iterator
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> List
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> Nil
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> Nothing
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> Object
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> Predef
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> Source
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> String
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> StringContext
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> T
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> That
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> U
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> Unit
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> _$4
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> _$7
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> apply
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> canBuildFrom
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> cols
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> com
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> d
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> d1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> dir
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> dir1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> dirCheck
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> dirList
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> exists
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> fallbackSystemCodec
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> fileList
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> filter
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> foreach
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> fromFile
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> fs
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> getLines
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> getListOfDirectory
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> getListOfFiles
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> getName
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> immutable
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> io
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> isDirectory
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> isFile
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> java
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> learn
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> line
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> listFiles
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> map
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> materializeClassTag
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> package
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> println
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> rauf
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> refArrayOps
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> s
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> sData
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> sFile
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> scala
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> split
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> toList
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> trim
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> !=
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> %
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> &&
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> +
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> <byname>
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> <init>
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> ==
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> A
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> ACC_NUMBER
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Acc_opening_date
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Any
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> AnyRef
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Array
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> B
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Boolean
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> BufferedSource
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Calendar
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Codec
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Config
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> ConfigFactory
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> ConfigValue
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> DataValidation
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Date
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> DateTime
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> DateTimeFormat
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> DateTimeFormatter
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Days
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Double
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Entry
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Expiry_date
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Function1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> ID_NAME
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> ID_NUMBER
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> ID_TYPE
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> INCOMING_FOLDER
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> IllegalArgumentException
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Input
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Int
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Iterator
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Map
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> None
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Nothing
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Object
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Option
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Period
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> PeriodFormatterBuilder
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Predef
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> ReadableInstant
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Set
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> SimpleDateFormat
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Some
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Source
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> String
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> StringOps
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> T
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Try
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> U
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> Unit
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> appConfig
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> apply
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> augmentString
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> com
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> config
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> data
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> date
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> dateValidation
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> daysBetween
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> dd
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> entrySet
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> exp
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> fallbackSystemCodec
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> fmt
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> fmt1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> forPattern
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> foreach
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> format
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> fromFile
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> fs
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> getDayOfMonth
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> getDays
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> getInstance
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> getLines
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> getMonthOfYear
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> getOrElse
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> getString
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> getTime
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> getWeeks
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> getYear
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> io
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> isAfter
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> isNumeric
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> isSuccess
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> iterator
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> java
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> joda
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> ldays
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> learn
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> length
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> line
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> load
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> lperiod
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> mm
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> open
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> org
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> package
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> parseDate
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> parseDateTime
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> println
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> private_brand
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> rauf
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> scala
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> str
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> substring
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> suffix
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> sysDateTime
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> text
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> time
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> toDate
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> toDouble
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> toInt
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> trim
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> typesafe
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> util
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> yy
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> ||
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> <init>
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> Any
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> App
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> Boolean
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> Double
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> Driver
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> Object
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> Predef
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> Stock
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> Unit
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> com
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> fs
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> isHigher
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> learn
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> println
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> rauf
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> s1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> s2
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> scala
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> setPrice
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> <byname>
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> <init>
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> <refinement>
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> A
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> Any
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> AnyRef
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> Array
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> BufferedSource
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> BufferedWriter
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> Char
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> ClassManifestFactory
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> Codec
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> Config
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> ConfigFactory
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> File
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> FileNotFoundException
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> FileWriter
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> Function1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> IOException
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> Iterator
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> ManagedResource
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> Nothing
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> Object
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> OptManifest
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> Predef
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> ReflectiveCloseable
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> Resource
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> RichChar
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> Source
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> String
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> T
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> U
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> Unit
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> Writer
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> appConfig
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> bw
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> canonicalFilename
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> char
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> charWrapper
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> classType
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> close
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> com
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> config
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> fallbackSystemCodec
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> file
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> filePath
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> foreach
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> fromFile
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> fs
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> fsTest
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> getLines
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> getString
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> io
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> java
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> learn
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> line
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> load
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> managed
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> package
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> print
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> println
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> rauf
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> reflect
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> reflectiveCloseableResource
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> resource
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> scala
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> source
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> source1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> toUpper
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> typesafe
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> write
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> *
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> +
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> -
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> /
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> <init>
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> >
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> Any
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> AnyRef
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> Array
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> Boolean
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> Double
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> Function1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> NewtonsMethod
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> Object
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> Predef
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> String
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> Unit
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> _root_
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> abs
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> answer
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> apply
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> com
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> cos
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> driver
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> fs
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> fx
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> fxprime
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> initialGuess
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> learn
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> math
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> newtonHelperMethod
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> newtonsMethod
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> package
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> pow
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> println
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> rauf
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> scala
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> sin
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> tolerance
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> while$1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> x
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> x1
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> xNext
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> <init>
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> >
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> AnyRef
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> Boolean
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> Double
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> Object
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> Price
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> Price_=
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> Stock
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> Unit
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> com
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> fs
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> learn
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> p
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> rauf
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> scala
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> that
+product stamps:
+29 items
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo$$anonfun$1$$anonfun$2.class -> lastModified(1503289565576)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo$$anonfun$1.class -> lastModified(1503289565524)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo$$anonfun$3.class -> lastModified(1503289565582)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo$$anonfun$4.class -> lastModified(1503289565589)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo$$anonfun$getListOfDirectory$1.class -> lastModified(1503289565596)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo$$anonfun$getListOfDirectory$2.class -> lastModified(1503289565602)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo$$anonfun$getListOfFiles$1.class -> lastModified(1503289565608)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo$.class -> lastModified(1503289565514)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo$delayedInit$body.class -> lastModified(1503289565614)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\CSVDemo.class -> lastModified(1503289565422)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\DataValidation$$anonfun$com$rauf$learn$fs$DataValidation$$isNumeric$1$1.class -> lastModified(1504069328736)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\DataValidation$$anonfun$main$1$$anonfun$apply$1.class -> lastModified(1504069328777)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\DataValidation$$anonfun$main$1.class -> lastModified(1504069328750)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\DataValidation$.class -> lastModified(1504069328725)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\DataValidation.class -> lastModified(1504069328561)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\Driver$.class -> lastModified(1503289565629)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\Driver$delayedInit$body.class -> lastModified(1503289565634)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\Driver.class -> lastModified(1503289565620)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\fsTest$$anonfun$main$1.class -> lastModified(1503900402550)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\fsTest$$anonfun$main$2$$anonfun$apply$1.class -> lastModified(1503900402597)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\fsTest$$anonfun$main$2.class -> lastModified(1503900402557)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\fsTest$$anonfun$main$3.class -> lastModified(1503900402603)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\fsTest$.class -> lastModified(1503900402542)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\fsTest.class -> lastModified(1503900402530)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\NewtonsMethod$$anonfun$1.class -> lastModified(1503289565655)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\NewtonsMethod$$anonfun$2.class -> lastModified(1503289565662)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\NewtonsMethod$.class -> lastModified(1503289565648)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\NewtonsMethod.class -> lastModified(1503289565640)
+D:\workspace\FileSystemTest\target\scala-2.11\classes\com\rauf\learn\fs\Stock.class -> lastModified(1503289565669)
+source stamps:
+6 items
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> hash(a749fb630f95189565d7a99bd3e8d9d5466947c3)
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> hash(0fde217ba3f1c2e6575a62949d506e136254b9f4)
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> hash(f31c9453653b3ad81a803627782afaba29b0e44d)
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> hash(30760f333c5416acf787e0a1efb46628cbc7d2d9)
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> hash(f9f42ca42effca96d4392d7f87dbd4dde3ebb175)
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> hash(077b1c6b21735675da20f256ac4176d421cc3a77)
+binary stamps:
+5 items
+C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar -> lastModified(1479477386693)
+C:\Users\raouf.khan\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-2.0.jar -> lastModified(1479251054000)
+C:\Users\raouf.khan\.ivy2\cache\com.typesafe\config\bundles\config-1.3.1.jar -> lastModified(1474721599000)
+C:\Users\raouf.khan\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.9.jar -> lastModified(1490275991000)
+C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar -> lastModified(1457105192000)
+class names:
+5 items
+C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar -> java.lang.Object
+C:\Users\raouf.khan\.ivy2\cache\com.jsuereth\scala-arm_2.11\jars\scala-arm_2.11-2.0.jar -> resource.Resource$
+C:\Users\raouf.khan\.ivy2\cache\com.typesafe\config\bundles\config-1.3.1.jar -> com.typesafe.config.ConfigFactory
+C:\Users\raouf.khan\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.9.9.jar -> org.joda.time.Days
+C:\Users\raouf.khan\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar -> scala.Predef$
+internal apis:
+6 items
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwWv6fCwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAgc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw3at0YHQABm5vdGlmeXNxAH4ADDDfCXt0AAR3YWl0c3EAfgAMuZhm2XQABXNGaWxlc3EAfgAM2eD0iXQADSRhc0luc3RhbmNlT2ZzcQB+AAxQOJ0bdAAHZGlyTGlzdHNxAH4ADAf9Ecx0AAZlcXVhbHNzcQB+AAxM6pgodAASZ2V0TGlzdE9mRGlyZWN0b3J5c3EAfgAMDzwjKHQADGFzSW5zdGFuY2VPZnNxAH4ADK0QLyF0AA5leGVjdXRpb25TdGFydHNxAH4ADKGsB/N0AAxzeW5jaHJvbml6ZWRzcQB+AAwBPx65dAANJGlzSW5zdGFuY2VPZnNxAH4ADOToK1N0AARtYWluc3EAfgAMyEoh63QACW5vdGlmeUFsbHNxAH4ADHf/qdd0AAxpc0luc3RhbmNlT2ZzcQB+AAwwkaKtdAAIZmlsZUxpc3RzcQB+AAy8XVCNdAAOZ2V0TGlzdE9mRmlsZXNzcQB+AAzrz0hBdAACPT1zcQB+AAwLpzbhdAAFY2xvbmVzcQB+AAysLPKtdAAGJGluaXQkc3EAfgAMkLJkwHQACGRpckNoZWNrc3EAfgAMWBiT23QACHRvU3RyaW5nc3EAfgAMyMNFvXQABGFyZ3NzcQB+AAwuDgUodAACIT1zcQB+AAx7t+pldAAIZ2V0Q2xhc3NzcQB+AAy28JKmdAACbmVzcQB+AAz4VTUIdAAFc0RhdGFzcQB+AAxz7ZjsdAAHQ1NWRGVtb3NxAH4ADLF3FX10AAJlcXNxAH4ADKMO5NN0AAtkZWxheWVkSW5pdHNxAH4ADDUwDLF0AAIjI3NxAH4ADDemklB0AAhmaW5hbGl6ZXNxAH4ADPEO/YR0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AFd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABljb20ucmF1Zi5sZWFybi5mcy5DU1ZEZW1vdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAnQAGnNjYWxhLmRlcHJlY2F0ZWRPdmVycmlkaW5ndAAQc2NhbGEuZGVwcmVjYXRlZHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBxc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFdMAAlpbmhlcml0ZWRxAH4AV0wAB3BhcmVudHNxAH4AV3hxAH4AdnNxAH4AcXVxAH4AUgAAAABzcQB+AHF1cQB+AFIAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AFhxAH4AYXVxAH4AYgAAAAFzcgAUeHNidGkuYXBpLkFubm90YXRpb27eDoGi9lwKsgIAAlsACWFyZ3VtZW50c3QAH1tMeHNidGkvYXBpL0Fubm90YXRpb25Bcmd1bWVudDtMAARiYXNlcQB+AIB4cHVyAB9bTHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnQ7UZ2mjzglD3gCAAB4cAAAAAFzcgAceHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudNZFsdgDGxd8AgACTAAEbmFtZXEAfgANTAAFdmFsdWVxAH4ADXhwdAAAdAAqKCJtYWluIHNob3VsZCBub3QgYmUgb3ZlcnJpZGRlbiIsIjIuMTEuMCIpc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AdXQAFGRlcHJlY2F0ZWRPdmVycmlkaW5nc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB1c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCac3EAfgBkAHEAfgAldXEAfgBnAAAAAHNxAH4AjXQABFVuaXRxAH4Ak3VyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AIB4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AGp0AAVQbGFpbnEAfgA5c3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgCOWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgB1c3EAfgCNdAAFQXJyYXlxAH4Ak3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgCNdAAGU3RyaW5nc3EAfgCRc3EAfgCUdXEAfgCXAAAAA3NxAH4AmXQABGphdmFzcQB+AJl0AARsYW5ncQB+AJ5zcQB+AHF1cQB+ALUAAAAEc3EAfgCNdAADQXBwcQB+AJNzcQB+AI10AAtEZWxheWVkSW5pdHEAfgCTc3EAfgCNdAAGT2JqZWN0cQB+ALlzcQB+AI10AANBbnlxAH4Ak3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQACGNvbS5yYXVmc3EAfgDMdAAOY29tLnJhdWYubGVhcm5zcQB+AMx0ABFjb20ucmF1Zi5sZWFybi5mc3NxAH4AzHQAA2NvbXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXgMKTlx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA1RDpcd29ya3NwYWNlXEZpbGVTeXN0ZW1UZXN0XHRhcmdldFxzY2FsYS0yLjExXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSnSftjD5UYlWXXqZvT6NnVRmlHww==
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwBFagjAAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwGqs3L3QABm5vdGlmeXNxAH4ADAXUNCl0AAR3YWl0c3EAfgAMbE7E8HQADSRhc0luc3RhbmNlT2ZzcQB+AAx0gaoHdAAGZXF1YWxzc3EAfgAMPUvaNXQADGFzSW5zdGFuY2VPZnNxAH4ADFeH+e90AAxzeW5jaHJvbml6ZWRzcQB+AAy8ITM6dAANJGlzSW5zdGFuY2VPZnNxAH4ADNcXyhR0AARtYWluc3EAfgAMaFYVDXQADkRhdGFWYWxpZGF0aW9uc3EAfgAMBqh+m3QACW5vdGlmeUFsbHNxAH4ADBSFxRx0AAxpc0luc3RhbmNlT2ZzcQB+AAzAtoMedAACPT1zcQB+AAzXa6hodAAFY2xvbmVzcQB+AAxfWDvPdAAIdG9TdHJpbmdzcQB+AAzPBDfedAACIT1zcQB+AAw+YiDZdAAIZ2V0Q2xhc3NzcQB+AAxSivdHdAACbmVzcQB+AAysYZfvdAACZXFzcQB+AAwPqseIdAACIyNzcQB+AAy/1rbGdAAIZmluYWxpemVzcQB+AAx/MzqndAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAgY29tLnJhdWYubGVhcm4uZnMuRGF0YVZhbGlkYXRpb251cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAIXhzYnRpLmFwaS5BYnN0cmFjdExhenkkU3RyaWN0TGF6eQ1mHGspFiq4AgABTAAFdmFsdWV0ABJMamF2YS9sYW5nL09iamVjdDt4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFlzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQUwACWluaGVyaXRlZHEAfgBBTAAHcGFyZW50c3EAfgBBeHEAfgBec3EAfgBZdXEAfgA8AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBCcQB+AEt1cQB+AEwAAAAAc3EAfgBOAHEAfgAddXEAfgBRAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AF10AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBdc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB5dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AZnhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AVHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AbVsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AXXNxAH4AbHQABUFycmF5cQB+AHJ1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AbHQABlN0cmluZ3NxAH4AcHNxAH4Ac3VxAH4AdgAAAANzcQB+AHh0AARqYXZhc3EAfgB4dAAEbGFuZ3EAfgB9c3EAfgBZdXEAfgA8AAAAAHNxAH4AWXVxAH4AkQAAAAJzcQB+AGx0AAZPYmplY3RxAH4AlXNxAH4AbHQAA0FueXEAfgBydXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAARzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAIY29tLnJhdWZzcQB+AKZ0AA5jb20ucmF1Zi5sZWFybnNxAH4ApnQAEWNvbS5yYXVmLmxlYXJuLmZzc3EAfgCmdAADY29tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFeMYSNVXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADVEOlx3b3Jrc3BhY2VcRmlsZVN5c3RlbVRlc3RcdGFyZ2V0XHNjYWxhLTIuMTFcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFA/eIXuj8cLmV1pilJ1QbhNiVLn0
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwUtimigAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAbc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hweGd4b3QABm5vdGlmeXNxAH4ADLX+mVZ0AAR3YWl0c3EAfgAMAFUnsXQADSRhc0luc3RhbmNlT2ZzcQB+AAzHt1a0dAAGZXF1YWxzc3EAfgAMrJezMnQADGFzSW5zdGFuY2VPZnNxAH4ADHG145R0AA5leGVjdXRpb25TdGFydHNxAH4ADHgNE7x0AAxzeW5jaHJvbml6ZWRzcQB+AAwJWKC9dAANJGlzSW5zdGFuY2VPZnNxAH4ADG2/QGR0AAJzMnNxAH4ADBXaA/B0AARtYWluc3EAfgAM8ApDgHQACW5vdGlmeUFsbHNxAH4ADOsllkN0AAxpc0luc3RhbmNlT2ZzcQB+AAw1ae1KdAACczFzcQB+AAxa5xDqdAACPT1zcQB+AAynYz/TdAAGRHJpdmVyc3EAfgAMxX1wFXQABWNsb25lc3EAfgAMxqDwBnQABiRpbml0JHNxAH4ADM8Xpb50AAh0b1N0cmluZ3NxAH4ADMz9wlt0AARhcmdzc3EAfgAM2YaNtnQAAiE9c3EAfgAM4H+KSnQACGdldENsYXNzc3EAfgAMTGFqlnQAAm5lc3EAfgAM2qaeL3QAAmVxc3EAfgAM1ne1b3QAC2RlbGF5ZWRJbml0c3EAfgAMf4FZeXQAAiMjc3EAfgAMFzB4gHQACGZpbmFsaXplc3EAfgAMAd3k9XQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ATXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAGGNvbS5yYXVmLmxlYXJuLmZzLkRyaXZlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAJ0ABpzY2FsYS5kZXByZWNhdGVkT3ZlcnJpZGluZ3QAEHNjYWxhLmRlcHJlY2F0ZWRzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AZ3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBNTAAJaW5oZXJpdGVkcQB+AE1MAAdwYXJlbnRzcQB+AE14cQB+AGxzcQB+AGd1cQB+AEgAAAAAc3EAfgBndXEAfgBIAAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBOcQB+AFd1cQB+AFgAAAABc3IAFHhzYnRpLmFwaS5Bbm5vdGF0aW9u3g6BovZcCrICAAJbAAlhcmd1bWVudHN0AB9bTHhzYnRpL2FwaS9Bbm5vdGF0aW9uQXJndW1lbnQ7TAAEYmFzZXEAfgB2eHB1cgAfW0x4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW50O1Gdpo84JQ94AgAAeHAAAAABc3IAHHhzYnRpLmFwaS5Bbm5vdGF0aW9uQXJndW1lbnTWRbHYAxsXfAIAAkwABG5hbWVxAH4ADUwABXZhbHVlcQB+AA14cHQAAHQAKigibWFpbiBzaG91bGQgbm90IGJlIG92ZXJyaWRkZW4iLCIyLjExLjAiKXNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGt0ABRkZXByZWNhdGVkT3ZlcnJpZGluZ3NyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Aa3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AkHNxAH4AWgBxAH4AIXVxAH4AXQAAAABzcQB+AIN0AARVbml0cQB+AIl1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgB2eHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBgdAAFUGxhaW5xAH4AM3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4AhFsADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4Aa3NxAH4Ag3QABUFycmF5cQB+AIl1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4Ag3QABlN0cmluZ3NxAH4Ah3NxAH4AinVxAH4AjQAAAANzcQB+AI90AARqYXZhc3EAfgCPdAAEbGFuZ3EAfgCUc3EAfgBndXEAfgCrAAAABHNxAH4Ag3QAA0FwcHEAfgCJc3EAfgCDdAALRGVsYXllZEluaXRxAH4AiXNxAH4Ag3QABk9iamVjdHEAfgCvc3EAfgCDdAADQW55cQB+AIl1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABHNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAhjb20ucmF1ZnNxAH4AwnQADmNvbS5yYXVmLmxlYXJuc3EAfgDCdAARY29tLnJhdWYubGVhcm4uZnNzcQB+AMJ0AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAV4DCk5cdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQANUQ6XHdvcmtzcGFjZVxGaWxlU3lzdGVtVGVzdFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU8xyUU2U7OtgagDYneCr6uimw5E0=
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw4sJCGwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwWIYofnQABm5vdGlmeXNxAH4ADOOHHMt0AAR3YWl0c3EAfgAM4Nd1+HQABmZzVGVzdHNxAH4ADL5Dd9N0AA0kYXNJbnN0YW5jZU9mc3EAfgAMpIfd2nQABmVxdWFsc3NxAH4ADKdQvd10AAxhc0luc3RhbmNlT2ZzcQB+AAwxjBF9dAAMc3luY2hyb25pemVkc3EAfgAMMEpA+XQADSRpc0luc3RhbmNlT2ZzcQB+AAxyg6MDdAAEbWFpbnNxAH4ADNQjN1h0AAlub3RpZnlBbGxzcQB+AAx1kPZQdAAMaXNJbnN0YW5jZU9mc3EAfgAM7v8qMnQAAj09c3EAfgAM9oguvnQABWNsb25lc3EAfgAMT5Evn3QACHRvU3RyaW5nc3EAfgAMB9anSXQAAiE9c3EAfgAMKsoHGnQACGdldENsYXNzc3EAfgAMC1wk0XQAAm5lc3EAfgAMp/m4UHQAAmVxc3EAfgAMxg7lp3QAAiMjc3EAfgAMpxqJtHQACGZpbmFsaXplc3EAfgAMQ0cPD3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHQAGGNvbS5yYXVmLmxlYXJuLmZzLmZzVGVzdHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AF5zcQB+AFl1cQB+ADwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEJxAH4AS3VxAH4ATAAAAABzcQB+AE4AcQB+AB91cQB+AFEAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AXXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AF1zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHl1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBmeHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBUdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBtWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBdc3EAfgBsdAAFQXJyYXlxAH4AcnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBsdAAGU3RyaW5nc3EAfgBwc3EAfgBzdXEAfgB2AAAAA3NxAH4AeHQABGphdmFzcQB+AHh0AARsYW5ncQB+AH1zcQB+AFl1cQB+ADwAAAAAc3EAfgBZdXEAfgCRAAAAAnNxAH4AbHQABk9iamVjdHEAfgCVc3EAfgBsdAADQW55cQB+AHJ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABHNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAhjb20ucmF1ZnNxAH4ApnQADmNvbS5yYXVmLmxlYXJuc3EAfgCmdAARY29tLnJhdWYubGVhcm4uZnNzcQB+AKZ0AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAV4ncvNqdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQANUQ6XHdvcmtzcGFjZVxGaWxlU3lzdGVtVGVzdFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUMHYPMzxUFqz3h+Ch77RmKMvH0tk=
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwbnntWQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAYc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwAdgFxHQABm5vdGlmeXNxAH4ADCdkSUp0AAR3YWl0c3EAfgAMjSgOvnQADU5ld3RvbnNNZXRob2RzcQB+AAzjMN7udAANJGFzSW5zdGFuY2VPZnNxAH4ADOu8DJd0ABJuZXd0b25IZWxwZXJNZXRob2RzcQB+AAwm9a3qdAAGZXF1YWxzc3EAfgAM07+bf3QADGFzSW5zdGFuY2VPZnNxAH4ADNj5uoR0AAxzeW5jaHJvbml6ZWRzcQB+AAzrx37VdAANJGlzSW5zdGFuY2VPZnNxAH4ADAJQcsR0AARtYWluc3EAfgAM8xMui3QACW5vdGlmeUFsbHNxAH4ADDGuN3J0AAxpc0luc3RhbmNlT2ZzcQB+AAx5dudHdAAGZHJpdmVyc3EAfgAM5cdWVHQAAj09c3EAfgAMuvmPmnQABWNsb25lc3EAfgAMgYnY5XQADW5ld3RvbnNNZXRob2RzcQB+AAw1xvUydAAIdG9TdHJpbmdzcQB+AAzfUk2RdAACIT1zcQB+AAwySCOgdAAIZ2V0Q2xhc3NzcQB+AAyACdtadAACbmVzcQB+AAzMluzvdAACZXFzcQB+AAzxan+ydAACIyNzcQB+AAzdTOrvdAAIZmluYWxpemVzcQB+AAyMibY9dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBHeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnOX52HcEyZ7swIAAUIABWZsYWdzeHAAdAAfY29tLnJhdWYubGVhcm4uZnMuTmV3dG9uc01ldGhvZHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AX3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBHTAAJaW5oZXJpdGVkcQB+AEdMAAdwYXJlbnRzcQB+AEd4cQB+AGRzcQB+AF91cQB+AEIAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEhxAH4AUXVxAH4AUgAAAABzcQB+AFQAcQB+ACF1cQB+AFcAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AY3QABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGNzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AH91cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBseHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBadAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBzWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBjc3EAfgBydAAFQXJyYXlxAH4AeHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBydAAGU3RyaW5nc3EAfgB2c3EAfgB5dXEAfgB8AAAAA3NxAH4AfnQABGphdmFzcQB+AH50AARsYW5ncQB+AINzcQB+AF91cQB+AEIAAAAAc3EAfgBfdXEAfgCXAAAAAnNxAH4AcnQABk9iamVjdHEAfgCbc3EAfgBydAADQW55cQB+AHh1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABHNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAhjb20ucmF1ZnNxAH4ArHQADmNvbS5yYXVmLmxlYXJuc3EAfgCsdAARY29tLnJhdWYubGVhcm4uZnNzcQB+AKx0AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAV4DCk5cdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQANUQ6XHdvcmtzcGFjZVxGaWxlU3lzdGVtVGVzdFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU+fQspC7/ypbUOS1/h9vU3ePrsXU=
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwnhBWFwAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAXc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwiseBjnQABm5vdGlmeXNxAH4ADCOIWNl0AAR3YWl0c3EAfgAMrWmbQHQADSRhc0luc3RhbmNlT2ZzcQB+AAzmTo/gdAAGZXF1YWxzc3EAfgAMaqyjRHQADGFzSW5zdGFuY2VPZnNxAH4ADJcT1wN0AAxzeW5jaHJvbml6ZWRzcQB+AAwpDBhvdAANJGlzSW5zdGFuY2VPZnNxAH4ADDdvOIB0AAhzZXRQcmljZXNxAH4ADJbxnj90AAhpc0hpZ2hlcnNxAH4ADGnaFPZ0AAlub3RpZnlBbGxzcQB+AAz1WWX4dAAMaXNJbnN0YW5jZU9mc3EAfgAM9LdOW3QABjxpbml0PnNxAH4ADImLV9h0AAI9PXNxAH4ADDSryNl0AAVjbG9uZXNxAH4ADDUMASV0AAh0b1N0cmluZ3NxAH4ADEtU9d50AAIhPXNxAH4ADMqmXKd0AAhnZXRDbGFzc3NxAH4ADIBHl+B0AAJuZXNxAH4ADHFaEOt0AAJlcXNxAH4ADJY7avx0AAIjI3NxAH4ADEvehAF0AAhmaW5hbGl6ZXNxAH4ADGkdjgt0AAhoYXNoQ29kZXNxAH4ADJKVJhB0AAVTdG9ja3NyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cAB0ABdjb20ucmF1Zi5sZWFybi5mcy5TdG9ja3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBdc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEVMAAlpbmhlcml0ZWRxAH4ARUwAB3BhcmVudHNxAH4ARXhxAH4AYnNxAH4AXXVxAH4AQAAAAABzcQB+AF11cQB+AEAAAAAAc3EAfgBddXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBhdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBhc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB6dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB7c3EAfgBudAADQW55c3EAfgByc3EAfgB1dXEAfgB4AAAAAnNxAH4AenQABXNjYWxhcQB+AIF1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABHNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAhjb20ucmF1ZnNxAH4Ai3QADmNvbS5yYXVmLmxlYXJuc3EAfgCLdAARY29tLnJhdWYubGVhcm4uZnNzcQB+AIt0AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAV4DCk5cdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQANUQ6XHdvcmtzcGFjZVxGaWxlU3lzdGVtVGVzdFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUB3scayFzVnXaIPJWrEF21CHMOnc=
+external apis:
+0 items
+source infos:
+6 items
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\CSVDemo.scala -> 
+AAAAAAAAAAA=
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\DataValidation.scala -> 
+AAAAAAAAAAA=
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Driver.scala -> 
+AAAAAAAAAAA=
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\fsTest.scala -> 
+AAAAAAAAAAA=
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\NewtonsMethod.scala -> 
+AAAAAAAAAAA=
+D:\workspace\FileSystemTest\src\main\scala\com\rauf\learn\fs\Stock.scala -> 
+AAAAAAAAAAA=
+compilations:
+3 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXgMKTlx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANUQ6XHdvcmtzcGFjZVxGaWxlU3lzdGVtVGVzdFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXidy82p1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANUQ6XHdvcmtzcGFjZVxGaWxlU3lzdGVtVGVzdFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXjGEjVV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQANUQ6XHdvcmtzcGFjZVxGaWxlU3lzdGVtVGVzdFx0YXJnZXRcc2NhbGEtMi4xMVxjbGFzc2VzdAABLw==

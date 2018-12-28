@@ -1,0 +1,25 @@
+[0m[[0minfo[0m] [0mPackaging D:\workspace\AkkaActor2.10\target\scala-2.11\akkaactor_2.11-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	akkaActor2\Barista.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\AkkaActor2.10\target\scala-2.11\classes\akkaActor2\Barista.class[0m
+[0m[[0mdebug[0m] [0m	akkaActor2\Barista$.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\AkkaActor2.10\target\scala-2.11\classes\akkaActor2\Barista$.class[0m
+[0m[[0mdebug[0m] [0m	akkaActor2\CoffeeRequest.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\AkkaActor2.10\target\scala-2.11\classes\akkaActor2\CoffeeRequest.class[0m
+[0m[[0mdebug[0m] [0m	akkaActor2[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\AkkaActor2.10\target\scala-2.11\classes\akkaActor2[0m
+[0m[[0mdebug[0m] [0m	akkaActor2\CappuccinoRequest.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\AkkaActor2.10\target\scala-2.11\classes\akkaActor2\CappuccinoRequest.class[0m
+[0m[[0mdebug[0m] [0m	akkaActor2\Barista$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\AkkaActor2.10\target\scala-2.11\classes\akkaActor2\Barista$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	akkaActor2\EspressoRequest.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\AkkaActor2.10\target\scala-2.11\classes\akkaActor2\EspressoRequest.class[0m
+[0m[[0mdebug[0m] [0m	akkaActor2\CappuccinoRequest$.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\AkkaActor2.10\target\scala-2.11\classes\akkaActor2\CappuccinoRequest$.class[0m
+[0m[[0mdebug[0m] [0m	akkaActor2\EspressoRequest$.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\AkkaActor2.10\target\scala-2.11\classes\akkaActor2\EspressoRequest$.class[0m
+[0m[[0mdebug[0m] [0m	akkaActor2\Barista$$anonfun$receive$1.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\AkkaActor2.10\target\scala-2.11\classes\akkaActor2\Barista$$anonfun$receive$1.class[0m
+[0m[[0mdebug[0m] [0m	akkaActor2\Barista$delayedInit$body.class[0m
+[0m[[0mdebug[0m] [0m	  D:\workspace\AkkaActor2.10\target\scala-2.11\classes\akkaActor2\Barista$delayedInit$body.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m
