@@ -1,0 +1,482 @@
+Your application uses this class API to perform database operations such as
+writing and reading records, and selecting sets of records. Write operations
+include specialized functionality such as append/prepend and arithmetic addition
+hihihi hji hi hi hi hi hi
+
+
+case class Marks(name:String,math:Int,physics:Int,chemistry:Int)
+
+val marks = sc.textFile("E:/logs/marks.txt").map(_.split(",")).map(rec => Marks(rec(0),rec(1).trim.toInt,rec(2).trim.toInt,rec(3).trim.toInt)).toDF()
+
+val markSheet = marks.withColumn("Total",$"math"+$"physics"+$"chemistry")
+
+
+2548  data.show
+2549  practicals.show
+2552  val result = sqlContext.sql("select m.name,m.math,m.physics,m.chemistry,p.computer,p.PT from marks m left outer join practicals p on m.name=p.name")
+2553  result.show
+2554  val resultDF = result.toDF
+2559  val resultDF1 = resultDF.withColumn("computer", when($"computer".isNull,0).otherwise($"computer"))
+2560  resultDF1.show
+2561  val resultDF2 = resultDF1.withColumn("PT", when($"PT".isNull,0).otherwise($"PT"))
+2562  resultDF2.show
+
+
+
+
+scala> val users = sc.textFile("E:/logs/user.txt")
+users: org.apache.spark.rdd.RDD[String] = E:/logs/user.txt MapPartitionsRDD[1] at textFile at <console>:24
+
+scala> val transactions = sc.textFile("E:/logs/transaction.txt")
+transactions: org.apache.spark.rdd.RDD[String] = E:/logs/transaction.txt MapPartitionsRDD[3] at textFile at <console>:24
+
+scala> users.count
+res0: Long = 3
+
+scala> users.first
+res1: String = 1        matthew@test.com        EN      US
+
+scala> val userMap = users.map(rec => (rec.split("\t")(0), rec.split("\t")(3)))
+userMap: org.apache.spark.rdd.RDD[(String, String)] = MapPartitionsRDD[4] at map at <console>:26
+
+scala> userMap.count
+res2: Long = 3
+
+scala> userMap.first
+res3: (String, String) = (1,US)
+
+scala> val transactionMap = transactions.map(rec => (rec.split("\t")(2).toInt, rec.split("\t")(1).toInt))
+transactionMap: org.apache.spark.rdd.RDD[(Int, Int)] = MapPartitionsRDD[5] at map at <console>:26
+
+scala> val userMap = users.map(rec => (rec.split("\t")(0).toInt, rec.split("\t")(3)))
+userMap: org.apache.spark.rdd.RDD[(Int, String)] = MapPartitionsRDD[6] at map at <console>:26
+
+scala> tr
+transactionMap   transactions   transient   translate   trim   trunc
+
+scala> trans
+transactionMap   transactions   transient   translate
+
+scala> transaction
+transactionMap   transactions
+
+scala> transactionMap.count
+res4: Long = 5
+
+scala> transactionMap.first
+res5: (Int, Int) = (1,1)
+
+scala> userMap.first
+res6: (Int, String) = (1,US)
+
+scala> val userTxnJoin = userMap.join(transactionMap)
+userTxnJoin: org.apache.spark.rdd.RDD[(Int, (String, Int))] = MapPartitionsRDD[9] at join at <console>:32
+
+scala> userTxnJoin.count
+res7: Long = 5
+
+scala> userTxnJoin.first
+res8: (Int, (String, Int)) = (2,(GB,1))
+
+scala> userTxnJoin foreach(println)
+(2,(GB,1))
+(2,(GB,1))
+(1,(US,1))
+(3,(FR,2))
+(3,(FR,1))
+
+scala> val userTxnJoin = userMap.join(transactionMap).distinct
+userTxnJoin: org.apache.spark.rdd.RDD[(Int, (String, Int))] = MapPartitionsRDD[15] at distinct at <console>:32
+
+scala> userTxnJoin.count
+res10: Long = 4
+
+scala> userTxnJoin foreach(println)
+(3,(FR,2))
+(2,(GB,1))
+(3,(FR,1))
+(1,(US,1))
+
+scala> val userTxnJoin = transactionMap.join(userMap).distinct
+userTxnJoin: org.apache.spark.rdd.RDD[(Int, (Int, String))] = MapPartitionsRDD[21] at distinct at <console>:32
+
+scala> userTxnJoin foreach(println)
+(3,(2,FR))
+(2,(1,GB))
+(1,(1,US))
+(3,(1,FR))
+
+scala> val productCount = userTxnJoin.map(rec =>(rec._2._1,rec._2._2)).countBy
+countByKey   countByKeyApprox   countByValue   countByValueApprox
+
+scala> val productCount = userTxnJoin.map(rec =>(rec._2._1,rec._2._2)).countByKey
+productCount: scala.collection.Map[Int,Long] = Map(2 -> 1, 1 -> 3)
+
+scala> productCount foreach println
+(2,1)
+(1,3)
+
+scala> val productCount = userTxnJoin.map(rec =>(rec._2._1,rec._2._2)).countByKey().s
+sameElements   scanLeft    seq    slice     span      stringPrefix   synchronized
+scan           scanRight   size   sliding   splitAt   sum
+
+scala> val productCount = userTxnJoin.map(rec =>(rec._2._1,rec._2._2)).countByKey().s
+sameElements   scanLeft    seq    slice     span      stringPrefix   synchronized
+scan           scanRight   size   sliding   splitAt   sum
+
+scala> val productCount = userTxnJoin.map(rec =>(rec._2._1,rec._2._2)).countByKey().s
+sameElements   scanLeft    seq    slice     span      stringPrefix   synchronized
+scan           scanRight   size   sliding   splitAt   sum
+
+scala> val productCount = userTxnJoin.map(rec =>(rec._2._1,rec._2._2)).countByKey()
+productCount: scala.collection.Map[Int,Long] = Map(2 -> 1, 1 -> 3)
+
+
+scala> import org.apache.spark.sql._
+import org.apache.spark.sql._
+
+scala> import org.apache.spark.sql.functions._
+import org.apache.spark.sql.functions._
+
+scala> val sqlContext = new SQLContext(sc)
+warning: there was one deprecation warning; re-run with -deprecation for details
+sqlContext: org.apache.spark.sql.SQLContext = org.apache.spark.sql.SQLContext@7abaec8c
+
+scala> import sqlContext.implicits._
+import sqlContext.implicits._
+
+
+scala> val marks = sc.textFile("E:/logs/marks.txt").map(_.split(",")).map(rec => Marks(rec(0),rec(1).trim.toInt,rec(2).trim.toInt,rec(3).trim.toInt)).toDF()
+marks: org.apache.spark.sql.DataFrame = [name: string, math: int ... 2 more fields]
+
+scala> case class Practicals(name:String,computer:Int,PT :Int)
+defined class Practicals
+
+scala> val marks = sc.textFile("E:/logs/marks1.txt").map(_.split(",")).map(rec => Practicals(rec(0),rec(1).trim.toInt,rec(2).trim.toInt)).toDF()
+marks: org.apache.spark.sql.DataFrame = [name: string, computer: int ... 1 more field]
+
+scala> val practicals = sc.textFile("E:/logs/marks1.txt").map(_.split(",")).map(rec => Practicals(rec(0),rec(1).trim.toInt,rec(2).trim.toInt)).toDF()
+practicals: org.apache.spark.sql.DataFrame = [name: string, computer: int ... 1 more field]
+
+scala> val marks = sc.textFile("E:/logs/marks.txt").map(_.split(",")).map(rec => Marks(rec(0),rec(1).trim.toInt,rec(2).trim.toInt,rec(3).trim.toInt)).toDF()
+marks: org.apache.spark.sql.DataFrame = [name: string, math: int ... 2 more fields]
+
+scala> marks.registerTempTable("marks")
+warning: there was one deprecation warning; re-run with -deprecation for details
+
+scala> practicals.registerTempTable("practicals")
+warning: there was one deprecation warning; re-run with -deprecation for details
+
+scala> sqlContext.sql("Select * from marks")
+res20: org.apache.spark.sql.DataFrame = [name: string, math: int ... 2 more fields]
+
+scala> val data = sqlContext.sql("Select * from marks")
+data: org.apache.spark.sql.DataFrame = [name: string, math: int ... 2 more fields]
+
+
+scala> data.show
++-----+----+-------+---------+
+| name|math|physics|chemistry|
++-----+----+-------+---------+
+|Veera|  24|     25|       26|
+| Reva|  23|     27|       26|
+|  Lax|  30|     27|       16|
+|  Him|  29|      0|       12|
+|  Raj|  24|     21|        0|
++-----+----+-------+---------+
+
+
+scala> practicals.show
++-----+--------+---+
+| name|computer| PT|
++-----+--------+---+
+|Veera|      24| 25|
+|  Lax|      30| 27|
+|  Raj|      24|  2|
++-----+--------+---+
+
+scala> val result = sqlContext.sql("select m.name,m.math,m.physics,m.chemistry,p.computer,p.PT from marks m left outer join practicals p on m.name=p.name")
+result: org.apache.spark.sql.DataFrame = [name: string, math: int ... 4 more fields]
+
+scala> result.show
++-----+----+-------+---------+--------+----+
+| name|math|physics|chemistry|computer|  PT|
++-----+----+-------+---------+--------+----+
+|  Him|  29|      0|       12|    null|null|
+|Veera|  24|     25|       26|      24|  25|
+| Reva|  23|     27|       26|    null|null|
+|  Raj|  24|     21|        0|      24|   2|
+|  Lax|  30|     27|       16|      30|  27|
++-----+----+-------+---------+--------+----+
+
+scala> val resultDF = result.toDF
+resultDF: org.apache.spark.sql.DataFrame = [name: string, math: int ... 4 more fields]
+
+scala> val resultDF1 = resultDF.withColumn("computer", when($"computer".isNull,0).otherwise(1))
+resultDF1: org.apache.spark.sql.DataFrame = [name: string, math: int ... 4 more fields]
+
+scala> resultDF1.show
++-----+----+-------+---------+--------+----+
+| name|math|physics|chemistry|computer|  PT|
++-----+----+-------+---------+--------+----+
+|  Him|  29|      0|       12|       0|null|
+|Veera|  24|     25|       26|       1|  25|
+| Reva|  23|     27|       26|       0|null|
+|  Raj|  24|     21|        0|       1|   2|
+|  Lax|  30|     27|       16|       1|  27|
++-----+----+-------+---------+--------+----+
+
+
+scala> val resultDF2 = resultDF1.withColumn("PT", when($"PT".isNull,0).otherwise(1))
+resultDF2: org.apache.spark.sql.DataFrame = [name: string, math: int ... 4 more fields]
+
+scala> resultDF2.show
++-----+----+-------+---------+--------+---+
+| name|math|physics|chemistry|computer| PT|
++-----+----+-------+---------+--------+---+
+|  Him|  29|      0|       12|       0|  0|
+|Veera|  24|     25|       26|       1|  1|
+| Reva|  23|     27|       26|       0|  0|
+|  Raj|  24|     21|        0|       1|  1|
+|  Lax|  30|     27|       16|       1|  1|
++-----+----+-------+---------+--------+---+
+
+
+scala> val resultDF1 = resultDF.withColumn("computer", when($"computer".isNull,0).otherwise($"computer"))
+resultDF1: org.apache.spark.sql.DataFrame = [name: string, math: int ... 4 more fields]
+
+scala> resultDF1.show
++-----+----+-------+---------+--------+----+
+| name|math|physics|chemistry|computer|  PT|
++-----+----+-------+---------+--------+----+
+|  Him|  29|      0|       12|       0|null|
+|Veera|  24|     25|       26|      24|  25|
+| Reva|  23|     27|       26|       0|null|
+|  Raj|  24|     21|        0|      24|   2|
+|  Lax|  30|     27|       16|      30|  27|
++-----+----+-------+---------+--------+----+
+
+
+scala> val resultDF2 = resultDF1.withColumn("PT", when($"PT".isNull,0).otherwise($"PT"))
+resultDF2: org.apache.spark.sql.DataFrame = [name: string, math: int ... 4 more fields]
+
+scala> resultDF2.show
++-----+----+-------+---------+--------+---+
+| name|math|physics|chemistry|computer| PT|
++-----+----+-------+---------+--------+---+
+|  Him|  29|      0|       12|       0|  0|
+|Veera|  24|     25|       26|      24| 25|
+| Reva|  23|     27|       26|       0|  0|
+|  Raj|  24|     21|        0|      24|  2|
+|  Lax|  30|     27|       16|      30| 27|
++-----+----+-------+---------+--------+---+
+
+scala> val final_result = resultDF2.withColumn("Total",$"math" +$"physics"+"chemistry"+"computer"+"PT")
+final_result: org.apache.spark.sql.DataFrame = [name: string, math: int ... 5 more fields]
+
+scala> final_result.show
++-----+----+-------+---------+--------+---+-----+
+| name|math|physics|chemistry|computer| PT|Total|
++-----+----+-------+---------+--------+---+-----+
+|  Him|  29|      0|       12|       0|  0| null|
+|Veera|  24|     25|       26|      24| 25| null|
+| Reva|  23|     27|       26|       0|  0| null|
+|  Raj|  24|     21|        0|      24|  2| null|
+|  Lax|  30|     27|       16|      30| 27| null|
++-----+----+-------+---------+--------+---+-----+
+
+
+scala> val final_result = resultDF2.withColumn("Total",$"math" +$"physics"+$"chemistry"+$"computer"+$"PT")
+final_result: org.apache.spark.sql.DataFrame = [name: string, math: int ... 5 more fields]
+
+scala> final_result.show
++-----+----+-------+---------+--------+---+-----+
+| name|math|physics|chemistry|computer| PT|Total|
++-----+----+-------+---------+--------+---+-----+
+|  Him|  29|      0|       12|       0|  0|   41|
+|Veera|  24|     25|       26|      24| 25|  124|
+| Reva|  23|     27|       26|       0|  0|   76|
+|  Raj|  24|     21|        0|      24|  2|   71|
+|  Lax|  30|     27|       16|      30| 27|  130|
++-----+----+-------+---------+--------+---+-----+
+
+
+scala> val markSheet = final_result.withColumn("Percentage", $"Total"/150*100)
+markSheet: org.apache.spark.sql.DataFrame = [name: string, math: int ... 6 more fields]
+
+scala> markSheet.show
++-----+----+-------+---------+--------+---+-----+------------------+
+| name|math|physics|chemistry|computer| PT|Total|        Percentage|
++-----+----+-------+---------+--------+---+-----+------------------+
+|  Him|  29|      0|       12|       0|  0|   41|27.333333333333332|
+|Veera|  24|     25|       26|      24| 25|  124| 82.66666666666667|
+| Reva|  23|     27|       26|       0|  0|   76| 50.66666666666667|
+|  Raj|  24|     21|        0|      24|  2|   71|47.333333333333336|
+|  Lax|  30|     27|       16|      30| 27|  130| 86.66666666666667|
++-----+----+-------+---------+--------+---+-----+------------------+
+
+scala> val newSet =result.na.drop
+newSet: org.apache.spark.sql.DataFrame = [name: string, math: int ... 4 more fields]
+
+
+scala> newSet.show
++-----+----+-------+---------+--------+---+
+| name|math|physics|chemistry|computer| PT|
++-----+----+-------+---------+--------+---+
+|Veera|  24|     25|       26|      24| 25|
+|  Raj|  24|     21|        0|      24|  2|
+|  Lax|  30|     27|       16|      30| 27|
++-----+----+-------+---------+--------+---+
+
+scala> val newSet =result.na.fill("--")
+newSet: org.apache.spark.sql.DataFrame = [name: string, math: int ... 4 more fields]
+
+scala> newSet.show
++-----+----+-------+---------+--------+----+
+| name|math|physics|chemistry|computer|  PT|
++-----+----+-------+---------+--------+----+
+|  Him|  29|      0|       12|    null|null|
+|Veera|  24|     25|       26|      24|  25|
+| Reva|  23|     27|       26|    null|null|
+|  Raj|  24|     21|        0|      24|   2|
+|  Lax|  30|     27|       16|      30|  27|
++-----+----+-------+---------+--------+----+
+
+
+scala> val dataframe = sc.textFile("E:/logs/date.txt")
+dataframe: org.apache.spark.rdd.RDD[String] = E:/logs/date.txt MapPartitionsRDD[195] at textFile at <console>:35
+
+scala> dataframe.count
+count   countApprox   countApproxDistinct   countAsync   countByValue   countByValueApprox
+
+scala> dataframe.count
+res38: Long = 6
+
+scala> dataframe.first
+res39: String = id|end_date|start_date|location
+
+scala> val header = dataframe.first
+header: String = id|end_date|start_date|location
+
+scala> val noHeader =dataframe.filter(rec =>rec != header)
+noHeader: org.apache.spark.rdd.RDD[String] = MapPartitionsRDD[196] at filter at <console>:39
+
+scala> noHeader.count
+count   countApprox   countApproxDistinct   countAsync   countByValue   countByValueApprox
+
+scala> noHeader.count
+res40: Long = 5
+
+scala> noHeader.first
+res41: String = 1|2015-10-14 00:00:00|2015-09-14 00:00:00|CA-SF
+
+scala> import org.apache.spark.sql.types._
+import org.apache.spark.sql.types._
+
+scala> val row_rdd = noHeader.map(x => x.split('|')).map(x => Row.fromSeq(x))
+row_rdd: org.apache.spark.rdd.RDD[org.apache.spark.sql.Row] = MapPartitionsRDD[198] at map at <console>:44
+
+scala> row_rdd.count
+res42: Long = 5
+
+scala> row_rdd.first
+res43: org.apache.spark.sql.Row = [1,2015-10-14 00:00:00,2015-09-14 00:00:00,CA-SF]
+
+scala> row_rdd foreach println
+[4,2015-10-17 03:00:20,2015-02-14 00:00:00,NY-NY]
+[1,2015-10-14 00:00:00,2015-09-14 00:00:00,CA-SF]
+[5,2015-10-18 04:30:00,2014-04-14 00:00:00,CA-LA]
+[2,2015-10-15 01:00:20,2015-08-14 00:00:00,CA-SD]
+[3,2015-10-16 02:30:00,2015-01-14 00:00:00,NY-NY]
+
+scala> val df_schema = StructType(header.split('|').map(fieldName =>StructField(fieldName,StringType,true)))
+df_schema: org.apache.spark.sql.types.StructType = StructType(StructField(id,StringType,true), StructField(end_date,StringType,true), StructField(start_date,StringType,true), StructField(location,StringType,true))
+
+scala> var df = sqlContext.createDataFrame(row_rdd,df_schema)
+df: org.apache.spark.sql.DataFrame = [id: string, end_date: string ... 2 more fields]
+
+scala> df.printSchema
+root
+ |-- id: string (nullable = true)
+ |-- end_date: string (nullable = true)
+ |-- start_date: string (nullable = true)
+ |-- location: string (nullable = true)
+
+scala> df.show
++---+-------------------+-------------------+--------+
+| id|           end_date|         start_date|location|
++---+-------------------+-------------------+--------+
+|  1|2015-10-14 00:00:00|2015-09-14 00:00:00|   CA-SF|
+|  2|2015-10-15 01:00:20|2015-08-14 00:00:00|   CA-SD|
+|  3|2015-10-16 02:30:00|2015-01-14 00:00:00|   NY-NY|
+|  4|2015-10-17 03:00:20|2015-02-14 00:00:00|   NY-NY|
+|  5|2015-10-18 04:30:00|2014-04-14 00:00:00|   CA-LA|
++---+-------------------+-------------------+--------+
+
+scala> val timestamp2datetype:(Column) =>Column = (x) =>{to_date(x)}
+timestamp2datetype: org.apache.spark.sql.Column => org.apache.spark.sql.Column = <function1>
+
+scala> df = df.withColumn("date",timestamp2datetype(col("end_date")))
+df: org.apache.spark.sql.DataFrame = [id: string, end_date: string ... 3 more fields]
+
+scala> df.show
++---+-------------------+-------------------+--------+----------+
+| id|           end_date|         start_date|location|      date|
++---+-------------------+-------------------+--------+----------+
+|  1|2015-10-14 00:00:00|2015-09-14 00:00:00|   CA-SF|2015-10-14|
+|  2|2015-10-15 01:00:20|2015-08-14 00:00:00|   CA-SD|2015-10-15|
+|  3|2015-10-16 02:30:00|2015-01-14 00:00:00|   NY-NY|2015-10-16|
+|  4|2015-10-17 03:00:20|2015-02-14 00:00:00|   NY-NY|2015-10-17|
+|  5|2015-10-18 04:30:00|2014-04-14 00:00:00|   CA-LA|2015-10-18|
++---+-------------------+-------------------+--------+----------+
+
+scala> val timestamp2date:(Column) => Column = (x) => { regexp_replace(x, "(\\d+)[:](\\d+)[:](\\d+).*$","")}
+timestamp2date: org.apache.spark.sql.Column => org.apache.spark.sql.Column = <function1>
+
+scala> df = df.withColumn("date_only", timestamp2date(col("end_date")))
+df: org.apache.spark.sql.DataFrame = [id: string, end_date: string ... 4 more fields]
+
+scala> df.show
++---+-------------------+-------------------+--------+----------+-----------+
+| id|           end_date|         start_date|location|      date|  date_only|
++---+-------------------+-------------------+--------+----------+-----------+
+|  1|2015-10-14 00:00:00|2015-09-14 00:00:00|   CA-SF|2015-10-14|2015-10-14 |
+|  2|2015-10-15 01:00:20|2015-08-14 00:00:00|   CA-SD|2015-10-15|2015-10-15 |
+|  3|2015-10-16 02:30:00|2015-01-14 00:00:00|   NY-NY|2015-10-16|2015-10-16 |
+|  4|2015-10-17 03:00:20|2015-02-14 00:00:00|   NY-NY|2015-10-17|2015-10-17 |
+|  5|2015-10-18 04:30:00|2014-04-14 00:00:00|   CA-LA|2015-10-18|2015-10-18 |
++---+-------------------+-------------------+--------+----------+-----------+
+
+scala> val parse_city:(Column) =>Column = (x) => {split(x, "-")(1)}
+parse_city: org.apache.spark.sql.Column => org.apache.spark.sql.Column = <function1>
+
+scala> df = df.withColumn("city", parse_city(col("location")))
+df: org.apache.spark.sql.DataFrame = [id: string, end_date: string ... 5 more fields]
+
+scala> df.show
++---+-------------------+-------------------+--------+----------+-----------+----+
+| id|           end_date|         start_date|location|      date|  date_only|city|
++---+-------------------+-------------------+--------+----------+-----------+----+
+|  1|2015-10-14 00:00:00|2015-09-14 00:00:00|   CA-SF|2015-10-14|2015-10-14 |  SF|
+|  2|2015-10-15 01:00:20|2015-08-14 00:00:00|   CA-SD|2015-10-15|2015-10-15 |  SD|
+|  3|2015-10-16 02:30:00|2015-01-14 00:00:00|   NY-NY|2015-10-16|2015-10-16 |  NY|
+|  4|2015-10-17 03:00:20|2015-02-14 00:00:00|   NY-NY|2015-10-17|2015-10-17 |  NY|
+|  5|2015-10-18 04:30:00|2014-04-14 00:00:00|   CA-LA|2015-10-18|2015-10-18 |  LA|
++---+-------------------+-------------------+--------+----------+-----------+----+
+
+scala> val dateDiff:(Column,Column)=> Column =(x,y)=> {datediff(to_date(y),to_date(x))}
+dateDiff: (org.apache.spark.sql.Column, org.apache.spark.sql.Column) => org.apache.spark.sql.Column = <function2>
+
+scala> df = df.withColumn("date_diff", dateDiff(col("start_date"),col("end_date")))
+df: org.apache.spark.sql.DataFrame = [id: string, end_date: string ... 6 more fields]
+
+scala> df.show
++---+-------------------+-------------------+--------+----------+-----------+----+---------+
+| id|           end_date|         start_date|location|      date|  date_only|city|date_diff|
++---+-------------------+-------------------+--------+----------+-----------+----+---------+
+|  1|2015-10-14 00:00:00|2015-09-14 00:00:00|   CA-SF|2015-10-14|2015-10-14 |  SF|       30|
+|  2|2015-10-15 01:00:20|2015-08-14 00:00:00|   CA-SD|2015-10-15|2015-10-15 |  SD|       62|
+|  3|2015-10-16 02:30:00|2015-01-14 00:00:00|   NY-NY|2015-10-16|2015-10-16 |  NY|      275|
+|  4|2015-10-17 03:00:20|2015-02-14 00:00:00|   NY-NY|2015-10-17|2015-10-17 |  NY|      245|
+|  5|2015-10-18 04:30:00|2014-04-14 00:00:00|   CA-LA|2015-10-18|2015-10-18 |  LA|      552|
++---+-------------------+-------------------+--------+----------+-----------+----+---------+

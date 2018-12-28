@@ -1,0 +1,36 @@
+program to connect mysql using scala
+
+package com.tavant.dbTest
+import java.sql._
+import java.sql.{Connection,DriverManager}
+
+object SaclaJdbcTest extends App
+ {
+   val url = "jdbc:mysql://localhost:3306/hr"
+   val driver = "com.mysql.jdbc.Driver"
+   val username = "root"
+   val password = "root"
+   
+   var connection:Connection = _
+   try{
+     Class.forName(driver)
+     connection = DriverManager.getConnection(url,username,password)
+     val statement = connection.createStatement
+     val rs = statement.executeQuery("SELECT * FROM regions")
+     while(rs.next())
+     {
+       val id = rs.getInt(1)
+       val name = rs.getString(2)
+       
+       println(id)
+       println(name)
+     }
+     
+   }
+   catch{
+     case e:Exception =>e.printStackTrace
+   }
+   
+   connection.close
+   
+  }

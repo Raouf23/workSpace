@@ -1,0 +1,11 @@
+(fs.listStatus(new Path("/raouf"))).toList.filter(_.isDirectory).reduce((a, b) => if (a.getModificationTime > b.getModificationTime) a else b).getPath.toString()
+
+
+val hadoopConf = sc.hadoopConfiguration
+val fs = FileSystem.get(hadoopConf)
+
+import org.apache.hadoop.fs.Path
+import org.apache.hadoop.fs.FileStatus
+import org.apache.spark.SparkContext
+import scala.collection.mutable.ListBuffer
+import org.apache.hadoop.fs.FileSystem

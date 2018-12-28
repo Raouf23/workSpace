@@ -1,0 +1,135 @@
+raouf.khan@RAOUF-KHAN MINGW64 /d/Raouf/edf-learning (master|MERGING)
+$ git og
+git: 'og' is not a git command. See 'git --help'.
+
+Did you mean this?
+        log
+
+raouf.khan@RAOUF-KHAN MINGW64 /d/Raouf/edf-learning (master|MERGING)
+$ git log
+commit 87294cfed05d801d6efa1372d093f7c75e91abdb
+Author: raouf.khan <raouf.khan@tavant.com>
+Date:   Fri Jun 23 12:13:32 2017 +0530
+
+    Scala mock code added to review
+
+commit b97de16ca2a66f73f09d98135075b2336f1366dc
+Author: raouf.khan <raouf.khan@tavant.com>
+Date:   Fri Jun 9 12:41:55 2017 +0530
+
+    Added streaming unit testcases
+
+commit c8abf659c58a04cdedaa529db8321beea45c9030
+Author: raouf.khan <raouf.khan@tavant.com>
+Date:   Fri Jun 9 12:40:11 2017 +0530
+
+    wrong commit
+
+commit 369aac715b05c118e0738cae83b60121e2c3c3c0
+Author: raouf.khan <raouf.khan@tavant.com>
+Date:   Fri Jun 9 12:38:15 2017 +0530
+
+     Added streaming unit test cases
+
+commit ab8d388049471bec06d40e43f7d581ebe6d24914
+Author: raouf.khan <raouf.khan@tavant.com>
+Date:   Fri Jun 9 12:35:53 2017 +0530
+
+    Added in wrong folder
+
+commit d8beef0be394da484fc64625cf8f7c52dcdaedc7
+Author: raouf.khan <raouf.khan@tavant.com>
+Date:   Fri Jun 9 12:32:11 2017 +0530
+
+    Streaming Learning code
+
+commit 319b2d13dff180079c05af748abcfa2d390b9157
+Author: raouf.khan <raouf.khan@tavant.com>
+Date:   Fri Jun 9 12:27:53 2017 +0530
+
+    Streaming unit test cases added
+
+commit 08d9da1c9fad515c4a01505809621a61fdd95e32
+Author:  <chethan@CHETAN-TI10432.in.corp.tavant.com>
+Date:   Wed Jun 7 10:22:53 2017 +0530
+
+    DI sample code
+
+commit 538c6196216672d1628d7d3c75b4da435d9551b1
+Author: Thomas Abraham P <thomas.p@tavant.com>
+Date:   Wed Jun 7 09:58:21 2017 +0530
+
+    Add readme.md
+
+raouf.khan@RAOUF-KHAN MINGW64 /d/Raouf/edf-learning (master|MERGING)
+$ git reflog
+87294cf HEAD@{0}: commit: Scala mock code added to review
+b97de16 HEAD@{1}: commit: Added streaming unit testcases
+c8abf65 HEAD@{2}: commit: wrong commit
+369aac7 HEAD@{3}: commit: Added streaming unit test cases
+ab8d388 HEAD@{4}: commit: Added in wrong folder
+d8beef0 HEAD@{5}: commit: Streaming Learning code
+319b2d1 HEAD@{6}: commit: Streaming unit test cases added
+08d9da1 HEAD@{7}: clone: from https://gitlab.tavant.com/CL-ExperianOmnia/edf-learning.git
+
+raouf.khan@RAOUF-KHAN MINGW64 /d/Raouf/edf-learning (master|MERGING)
+$ git reset --hard
+HEAD is now at 87294cf Scala mock code added to review
+
+raouf.khan@RAOUF-KHAN MINGW64 /d/Raouf/edf-learning (master)
+$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 7 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+nothing to commit, working directory clean
+
+raouf.khan@RAOUF-KHAN MINGW64 /d/Raouf/edf-learning (master)
+$ git status
+On branch master
+Your branch and 'origin/master' have diverged,
+and have 1 and 7 different commits each, respectively.
+  (use "git pull" to merge the remote branch into yours)
+nothing to commit, working directory clean
+
+raouf.khan@RAOUF-KHAN MINGW64 /d/Raouf/edf-learning (master)
+$ git branch
+* master
+
+raouf.khan@RAOUF-KHAN MINGW64 /d/Raouf/edf-learning (master)
+$ git remote show origin
+* remote origin
+  Fetch URL: https://gitlab.tavant.com/CL-ExperianOmnia/edf-learning.git
+  Push  URL: https://gitlab.tavant.com/CL-ExperianOmnia/edf-learning.git
+  HEAD branch: master
+  Remote branches:
+    integrationtesting tracked
+    master             tracked
+  Local branch configured for 'git pull':
+    master merges with remote master
+  Local ref configured for 'git push':
+    master pushes to master (local out of date)
+
+raouf.khan@RAOUF-KHAN MINGW64 /d/Raouf/edf-learning (master)
+$ git rebase -i origin/master
+Successfully rebased and updated refs/heads/master.
+
+raouf.khan@RAOUF-KHAN MINGW64 /d/Raouf/edf-learning (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+
+raouf.khan@RAOUF-KHAN MINGW64 /d/Raouf/edf-learning (master)
+$ git push
+Counting objects: 157, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (129/129), done.
+Writing objects: 100% (157/157), 120.10 KiB | 0 bytes/s, done.
+Total 157 (delta 42), reused 0 (delta 0)
+To https://gitlab.tavant.com/CL-ExperianOmnia/edf-learning.git
+   5cc568d..ecd3e36  master -> master
+
+raouf.khan@RAOUF-KHAN MINGW64 /d/Raouf/edf-learning (master)
+$ git status

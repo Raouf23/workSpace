@@ -1,0 +1,29 @@
+KAFKA tutorial
+
+https://gist.github.com/dgadiraju/c4ed3195e563779e97a1658598269652
+
+https://gist.github.com/dgadiraju/4a9ccf6bfc82cf039da3213877669e6c
+
+https://t.co/tnlE0DJqKF
+
+#Create Topic
+kafka-topics.sh --create \
+--zookeeper nn01.itversity.com:2181,nn02.itversity.com:2181,rm01.itversity.com \
+--replication-factor 1 \
+--partitions 1 \
+--topic kafkadg
+
+#list topics all topics
+kafka-topics.sh --list \
+--zookeeper nn01.itversity.com:2181,nn02.itversity.com:2181,rm01.itversity.com \
+
+#list topics one topic
+kafka-topics.sh --list \
+--zookeeper nn01.itversity.com:2181,nn02.itversity.com:2181,rm01.itversity.com \
+--topic testdg
+
+#Delete topics
+kafka-topics.sh --delete \
+--zookeeper nn01.itversity.com:2181,nn02.itversity.com:2181,rm01.itversity.com \
+--topic testdg
+

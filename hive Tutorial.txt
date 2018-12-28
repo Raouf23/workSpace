@@ -1,0 +1,608 @@
+HIVE TRAINING--------
+
+create external table ANSWERS
+(
+qid BIGINT,
+UidQ int,
+qs int,
+qt BIGINT,
+tags Array<String>,
+qvc INT,
+qac INT,
+aid BIGINT,
+UIDA BIGINT,
+as INT,
+at bigint
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t'
+COLLECTION ITEMS TERMINATED BY ','
+STORED AS textfile
+LOCATION '/user/cloudera/Answers';
+
+
+create external table stocks_eod
+(
+	stockticker string,
+	tradedate int,
+	openprice float,
+	highprice float,
+	lowprice float,
+	closeprice float,
+	volume bigint
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+STORED AS textfile
+LOCATION '/user/raoufkhan/nyse_hive';
+
+CREATE EXTERNAL table stocks_eod
+(
+	stockticker string,
+	tradedate int,
+	openprice float,
+	highprice float,
+	lowprice float,
+	closeprice float,
+	volume bigint
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+STORED AS textfile
+LOCATION '/user/raoufkhan/nyse_hive';
+
+load data local INPATH '/data/nyse' INTO TABLE order_another;
+copy the files from local to hdfs 
+dfs -ls paste_the_path
+to get the metadata for files avialabe 
+hdfs fsck give_the_path -files -blocks to get the entire metadata
+
+
+hadoop fs -cp /public/nyse /user/raoufkhan/nyse_hive
+
+describe formatted stocks_eod
+
+show create table orders;
+create table order_another
+(
+	order_id string,
+	order_date string,
+	
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+STORED AS SEQUENCEFILE
+
+only when tables is bucketed and file format is ORC then we will do update on table
+
+For Configuration:-
+way to get configuration format -- 
+cd /etc/conf/core-site.xml get the information about compression.codecs
+hive -e "set;"|grep -i compression
+
+hive.exec.compress.output =true
+
+insert into table order_seq select * from order_another;
+ 
+ set hive.execution.engine
+ set hive.execution.engine =tez;
+ set hive.execution.engine = spark; --not working
+ set hive.exec.compress.output =true;
+ set io.compression.codecs;
+ set mapred.output.compression.codec;
+ set 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ CREATE table categories_managed
+(
+	category_id INT,
+	category_department_id INT,
+	category_name STRING
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+STORED AS textfile
+LOCATION '/user/raoufkhan/nyse_hive';
+ 
+
+ 
+CREATE EXTERNAL table categories_managed
+(
+	category_id INT,
+	category_department_id INT,
+	category_name STRING
+)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+STORED AS textfile 
+LOCATION 'hdfs://nn01.itversity.com:8020/user/raoufkhan/retail_db/categories';
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ CREATE TABLE department_managed(
+ department_id INT,
+ department_name STRING
+ )
+ ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+ STORED AS textfile;
+ 
+  CREATE EXTERNAL TABLE department_external(
+ department_id INT,
+ department_name STRING
+ )
+ ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+ STORED AS textfile
+ LOCATION 'hdfs://nn01.itversity.com:8020/user/raoufkhan/retail_db/departments';
+					  
+
+					  
+					  
+					  					  
+ CREATE TABLE customers_managed( 
+customers_id INT,
+customers_fname STRING,
+customers_lname STRING,
+customers_email STRING,
+customers_password STRING,customers_street STRING, 
+customers_city STRING,
+customers_state STRING,
+customers_zipcode STRING
+) 
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '|' 
+STORED AS textfile;
+
+
+CREATE EXTERNAL TABLE customers_external( 
+customers_id INT,
+customers_fname STRING,
+customers_lname STRING,
+customers_email STRING,
+customers_password STRING,customers_street STRING, 
+customers_city STRING,
+customers_state STRING,
+customers_zipcode STRING
+) 
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ',' 
+STORED AS textfile
+LOCATION 'hdfs://nn01.itversity.com:8020/user/raoufkhan/retail_db/customers';
+
+
+
+
+
+CREATE  TABLE raoufkhan_final.categories_managed(
+ category_id INT,
+ category_department_id INT,
+ category_name STRING
+ )
+ ROW FORMAT DELIMITED FIELDS TERMINATED BY ',';
+ STORED AS textfile
+ LOCATION 'hdfs://nn01.itversity.com:8020/user/raoufkhan/retail_db/categories';
+ 
+ 
+ CREATE  TABLE categories(
+ category_id INT,
+ category_department_id INT,
+ category_name STRING
+ )
+ ROW FORMAT DELIMITED FIELDS TERMINATED BY ',';
+ STORED AS textfile
+ 
+ 
+ 
+ CREATE TABLE order_items_managed(
+ order_item_id INT,
+ order_item_order_id INT,
+ order_item_product_id INT,
+ order_item_quantity TINYINT,
+ order_item_subtotal FLOAT,
+ order_item_product_price FLOAT
+ )
+ ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+ STORED AS textfile;
+ 
+
+
+ 
+CREATE external TABLE order_items_EXTERNAL(
+ order_item_id INT,
+ order_item_order_id INT,
+ order_item_product_id INT,
+ order_item_quantity TINYINT,
+ order_item_subtotal FLOAT,
+ order_item_product_price FLOAT
+ )
+ ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+ STORED AS textfile
+ LOCATION 'hdfs://nn01.itversity.com:8020/user/raoufkhan/retail_db/order_items';
+ 
+ 
+ 
+ 
+ 
+ CREATE TABLE products_managed(
+ product_id INT,
+ product_name STRING,
+ product_category_id INT,
+ product_description STRING,
+ product_price FLOAT,
+ product_image STRING
+ )
+ ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+ STORED AS textfile;
+ 
+ CREATE external TABLE products_external(
+ product_id INT,
+ product_name STRING,
+ product_category_id INT,
+ product_description STRING,
+ product_price FLOAT,
+ product_image STRING
+ )
+ ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+ STORED AS textfile
+ LOCATION 'hdfs://nn01.itversity.com:8020/user/raoufkhan/retail_db/products';
+ 
+ 
+  insert into table raoufkhan_final.products_managed select * from products_external;                                                                                                                                                      om products_external;
+
+ insert into table department_managed select * from raoufkhan_stage.department_external;
+ 
+ 
+ 
+ CREATE TABLE orders_managed(
+ order_id INT,
+ order_date TIMESTAMP,
+ order_customer_id INT,
+ order_status STRING
+ )
+ ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+ STORED AS textfile;
+ 
+ 
+ CREATE EXTERNAL TABLE orders_external(
+ order_id INT,
+ order_date TIMESTAMP,
+ order_customer_id INT,
+ order_status STRING
+ )
+ ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+ STORED AS textfile
+ LOCATION 'hdfs://nn01.itversity.com:8020/user/raoufkhan/retail_db/orders';
+ 
+ 
+
+
+
+ CREATE TABLE orders_bucket(
+ order_id INT,
+ order_date TIMESTAMP,
+ order_customer_id INT,
+ order_status STRING
+ )
+ CLUSTERED BY (order_id) INTO 10 BUCKETS
+ ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+ STORED AS ORC;
+ 
+  CREATE TABLE order_items_bucket(
+ order_item_id INT,
+ order_item_order_id INT,
+ order_item_product_id INT,
+ order_item_quantity TINYINT,
+ order_item_subtotal FLOAT,
+ order_item_product_price FLOAT
+ )
+ CLUSTERED BY (order_item_order_id) INTO 10 BUCKETS
+ ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+ STORED AS ORC;
+ 
+ LOAD DATA LOCAL INPATH '/data/retail_db/departments' into table department_external
+ 
+ msck repair table table_name
+ 
+ 
+ 
+create table order_partiioned
+ 
+ (order_id INT,
+ order_date TIMESTAMP,
+ order_customer_id INT,
+ order_status STRING
+ )
+ partitioned by (order_month int)
+ ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
+ STORED AS textfile;
+ 
+ 
+ select  substr(order_date ,1,7) from orders Limit 10
+ 
+ insert into orders_partition partition(order_month)
+ select order_id, 
+ order_date, 
+ order_customer_id, 
+ order_status,
+ cast(concat(substr(order_date,1,4),substr(order_date,6,2)) as int) order_month 
+ from raoufkhan_stage.orders;
+ 
+ select cast(concat(substr(order_date,1,4),substr(order_date,6,2)) as int) order_month from orders;
+ 
+ 
+dynamic partitioned:
+SET hive.exec.dynamic.partition = true;
+SET hive.exec.dynamic.partition.mode = nonstrict;
+create table if not exists orders_partition(
+order_id int,
+order_date TIMESTAMP,
+order_customer_id int,
+order_status String)
+partitioned by (order_month int)
+row format delimited fields terminated by '|';
+
+describe formatted orders_partition;
+
+insert into raoufkhan_final.orders_partition partition (order_month)
+select order_id, 
+order_date, 
+order_customer_id ,
+order_status,
+cast(concat(substr(order_date,1,4),substr(order_date,6,2)) as int) order_month 
+from orders_external;
+ 
+ 
+ JOIN in HIVE
+ 
+select * from (select d.department_id,d.department_name,c.category_id,c.category_name
+from department_managed d JOIN categories_managed c
+on  d.department_id = c.category_department_id) q 
+ 
+ 
+ hive -f create_products.hql .... to run query using hql file
+ if not exists at table n database level
+ if delimeter are different then we can load the data using staging table then load in final table.
+ 
+select order_item_product_id ,sum(order_item_quantity) total_quantity from order_items_managed
+groug by order_item_product_id
+having sum(order_item_quantity) >= 1000
+order by total_quantity desc;
+
+
+select * from (select order_item_product_id ,sum(order_item_quantity) total_quantity 
+from order_items_managed oi join products p
+on oi.order_item_product_id = p.product_id
+groug by order_item_product_id
+having sum(order_item_quantity) >= 1000
+order by total_quantity desc) q limit 5
+
+
+select * from (select order_item_product_id ,sum(order_item_quantity) total_quantity 
+from order_items_managed oi 
+join products p
+on oi.order_item_product_id = p.product_id
+join categories c
+on category_id = p.product_category_id
+groug by product_name,category_name
+having sum(order_item_quantity) >= 1000
+order by total_quantity desc) q limit 5
+
+Explain to get the info about query in hive and what is happening in map reduce phase
+
+explain 
+select * from (select order_item_product_id ,sum(order_item_quantity) total_quantity 
+from order_items_managed oi 
+join products p
+on oi.order_item_product_id = p.product_id
+join categories c
+on category_id = p.product_category_id
+groug by product_name,category_name
+having sum(order_item_quantity) >= 1000
+order by total_quantity desc) q limit 5
+
+
+Global ranking to sort the complete dataset
+select * from 
+(select cat.category_name,total_quantity,
+dense rank() over (partition by 1 order by total_quantity desc) rnk
+from (
+select o.order_date, cat.category_name,p.product_name, sum(oi.order_item_subtotal) total_quantity from orders 0,
+order_items oi, products p, categories cat
+where o.order_id = oi.order_item_order_id
+and oi.order_item_product_id = p.product_id
+and p.product_category_id = cat.category_id
+group by o.order_date ,cat.category_name
+) q) q1 where rnk <=5
+
+
+Rank based on category 
+
+select * from 
+(select cat.category_name,total_quantity,
+dense rank() over (partition by category_name order by total_quantity desc) rnk
+from (
+select o.order_date, cat.category_name,p.product_name, sum(oi.order_item_subtotal) total_quantity from orders 0,
+order_items oi, products p, categories cat
+where o.order_id = oi.order_item_order_id
+and oi.order_item_product_id = p.product_id
+and p.product_category_id = cat.category_id
+group by o.order_date ,cat.category_name
+) q) q1 where rnk <=5
+
+
+select * from (
+select category_name, product_name, total_quantity,
+dense_rank() over (order by total_quantity desc) rnk
+ from (
+select category_name, product_name, sum(order_item_quantity) total_quantity 
+from order_items oi join products p
+on oi.order_item_product_id = p.product_id
+join categories c
+on c.category_id = p.product_category_id
+group by category_name, product_name) q) q1
+where rnk <= 5;
+
+
+select * from (
+select category_name, product_name, total_quantity,
+dense_rank() over (partition by category_name order by total_quantity desc) rnk
+ from (
+select category_name, product_name, sum(order_item_quantity) total_quantity 
+from order_items oi join products p
+on oi.order_item_product_id = p.product_id
+join categories c
+on c.category_id = p.product_category_id
+group by category_name, product_name) q) q1
+where rnk <= 5;
+
+mysql -u hr_ro -h nn01.itversity.com -p 
+
+select e.first_name,e.last_name,e.salary, d.department_name,
+sum(e.salary) over (partition by d.department_name) department_cost
+from employees e join departments data
+on e.department_id = d.department_id;
+  
+
+select e.first_name,e.last_name,e.salary, d.department_name,
+round((e.salary/sum(e.salary) over (partition by d.department_name))*100 ,2) department_cost
+from employees e join departments data
+on e.department_id = d.department_id;
+ 
+
+select * from ( select trademonth, stockticker, monthly_volume,dense_rank() over (partition by trademonth order by monthly_volume desc) rnk 
+from (select substr(tradedate, 1, 7) trademonth, stockticker, sum(volume) monthly_volume from stocks_eodgroup by substr(tradedate, 1, 7), stockticker) q1) q2 where rnk <= 5 order by trademonth, rnk;
+
+
+"select * from (select trademonth, stockticker, monthly_volume, " +
+dense_rank() over (partition by trademonth order by monthly_volume desc) rnk
+from (select substr(tradedate, 1, 7) trademonth, stockticker, sum(volume) monthly_volume 
+from stocks_eod
+group by substr(tradedate, 1, 7), stockticker) q1) q2
+where rnk <= 5
+order by trademonth, rnk;
+
+select * from (select trademonth, stockticker, monthly_volume,DENSE_RANK() OVER(PARTITION BY trademonth ORDER BY monthly_volume) as rnk from (select substr(tradedate, 1, 6) trademonth, stockticker, sum(volume) monthly_volume from stocks_eod group by substr(tradedate, 1, 6), stockticker) q) q1 where rnk <=5 order by trademonth, rnk
+
+
+
+select department_name,category_name, revenue_by_category,
+sum(revenue_by_category) over (partition by department_name)
+(revenue_by_category/sum(revenue_by_category) over (partition by department_name))*100
+pct_revenue
+from(
+select department_name, category_name sum(order_item_subtotal) revenue_by_category from order_items oi
+join orders o on o.order_id = oi.order_item_order_id
+join products p on oi.order_item_product_id = p.product_id
+join categories c on p.product_category_id = c.category_id
+join departments d on c.category_department_id = d.department_id
+where order_status in ("COMPLETE","CLOSED")
+group by department_name, category_name)q
+distribute by department_name sort by department_name,pct_revenue desc
+
+
+select department_name, category_id, sum(order_item_subtotal) total_salary , 
+RATIO_TO_REPORT(total_salary) OVER () AS rr
+from order_items
+join orders on order_id = order_item_order_id
+join products on order_item_product_id = product_id
+join categories on product_category_id = category_id
+join departments on department_id = category_department_id
+where order_status in ("COMPLETE", "CLOSED") 
+group by department_name, category_id;
+
+WORKING QUERY
+
+
+select department_name, category_name, revenue_by_category, 
+sum(revenue_by_category) over (partition by department_name),
+(revenue_by_category/sum(revenue_by_category) over (partition by department_name)) * 100 pct_revenue 
+from (
+select department_name, category_name, sum(order_item_subtotal) revenue_by_category
+from order_items
+join orders on order_id = order_item_order_id
+join products on order_item_product_id = product_id
+join categories on product_category_id = category_id
+join departments on department_id = category_department_id
+where order_status in ("COMPLETE", "CLOSED") 
+group by department_name, category_name) q
+order by department_name, pct_revenue desc;
+
+
+select department_name, category_name, revenue_by_category, 
+sum(revenue_by_category) over (partition by department_name),
+(revenue_by_category/sum(revenue_by_category) over (partition by department_name)) * 100 pct_revenue 
+from (
+select department_name, category_name, sum(order_item_subtotal) revenue_by_category
+from order_items_managed
+join orders_managed on order_id = order_item_order_id
+join products_managed on order_item_product_id = product_id
+join categories_managed on product_category_id = category_id
+join department_managed on department_id = category_department_id
+where order_status in ("COMPLETE", "CLOSED") 
+group by department_name, category_name) q
+order by department_name, pct_revenue desc
+
+Sorting - global sorting n ByKey sorting
+sorting is never linear  more data to sort time will grow exponenitially
+
+select d.department_name,c.category_name ,sum(oi.order_item_subtotal) revenue_by_category
+from order_items_managed oi 
+join orders_managed o on o.order_id = oi.order_item_order_id
+join products_managed p on oi.order_item_product_id = p.product_id
+join categories_managed c on p.product_category_id = c.category_id
+join department_managed d on c.category_department_id = d.department_id
+where o.order_status in ("COMPLETE", "CLOSED")
+group by d.department_name,c.category_name
+
+
+select m.name,m.math,m.physics,m.chemistry,p.computer,p.PT
+from marks m left outer join practicals p
+on m.name= p.name
+
+HIVE Views
+
+create or replace view order_join as 
+select o.*,oi.* from orders o join order_items oi on
+oi.order_item_order_id = o.order_id
+
+create table order_item_no_duplicates
+as select * from order_items where 1=2; copied the structure of the table
+it will always take default delimeter
+Except from 
+
+create table order_item_no_duplicates
+ROW FORMAT DELIMITED 
+FIELDS TERMINATED BY '|'
+STORED AS sequencefile
+as select * from order_items where 1=2;
+
+
+set hive.auto.convert.join=true;
+if it's false it will join the data on reduce side
+to disable mapside join 
+set hive.auto.convert.join=false;
+
+create or replace view products_dept
+as select distinct p.product_id,p.product_name,d.department_name
+from products p
+join categories c on p.product_category_id =c.category_id
+join departments d on d.department_id = c.category_department_id;
+
+CREATE TABLE employees(
+name STRING,
+salary FLOAT,
+subordinates ARRAY<STRING>,
+deductions MAP<STRING,FLOAT>,
+address STRUCT<street:STRING,city:STRING,state:STRING,zip:INT>
+)
+ROW FORMAT DELIMITED
+FIELDS TERMINATED BY '\001'
+COLLECTION ITEMS TERMINATED BY '\002'
+MAP KEYS TERMINATED BY '\003'
+LINES TERMINATED BY '\n'
+STORED AS TEXTFILE
+
+
+

@@ -1,0 +1,149 @@
+Spark Training
+
+/usr/hdp/2.5.0.0-1245/spark2/bin/spark-submit --class "com.itversity.dataframes.CSVDataFrame" 
+--master yarn --executor-memory 512m --total-executor-cores 1 
+/home/devarakonda/sparkdataframe_2.11-5.0.jar prod
+
+ filter question
+ 
+https://github.com/dgadiraju/code/blob/master/hadoop/edw/cloudera/spark/spark_demo_scala.txt
+
+http://discuss.itversity.com/t/exercise-06-get-top-n-traded-stocks-by-volume-each-month-from-nyse-data-with-in-a-given-year/2676
+
+https://github.com/dgadiraju/data
+
+http://www.itversity.com/lessons/apache-spark-with-scala/
+
+http://www.itversity.com/courses/big-data-engineer-immersion/
+
+http://www.itversity.com/lessons/apache-spark-data-frames-scala/
+
+https://gist.github.com/dgadiraju/7c33be016d50efbc954c376df8cee24c
+
+https://gist.github.com/dgadiraju/93d28037d021beb64afe20433470b7ea
+
+
+
+    val fs = FileSystem.get(sc.hadoopConfiguration)
+    val inpath = new Path(args(1))
+    val inpathExists = fs.exists(inpath)
+    if (!inpathExists) {
+      println("Invalid input path")
+      return
+    }
+    val outpath = new Path(args(2))
+    val outpathExists = fs.exists(outpath)
+    if (outpathExists) {
+      fs.delete(outpath, true)
+    }
+
+Spark- syntax
+
+val prices = products.map(rec => rec.split(",")(3).toFloat)
+
+ val priceMin = prices.sortBy(c =>c ,false).first() for maximun value
+ 
+  val priceMin = prices.sortBy(c =>c ,true).first() for minimun value
+  
+   val prices = products.map(rec => (rec.split(",")(1), rec.split(",")(3).toFloat))
+   
+    val priceWithMax = prices.sortBy(_._2) ... for sort by value
+Price at catgory level
+	
+	val pricesGrp = prices.groupByKey()
+	
+	val pricesGrpMax = pricesGrp.map(rec =>(rec._1, rec._2.max))
+	
+	Array[(String, Float)] = Array((Diary,50.0), (Meat,80.0))
+	
+	val pricesGrpMin = pricesGrp.map(rec =>(rec._1, rec._2.min))
+	(Diary,0.75) (Meat,1.25)
+
+Top 5 priced items
+
+val topFivePriceProduct = products.map(rec => (rec.split(",")(0),rec.split(",")(1),rec.split(",")(2),rec.split(",")(3).toFloat)).sortBy(_._4, false).take(5)
+topFivePriceProduct: org.apache.spark.rdd.RDD[(String, String, String, Float)] = MapPartitionsRDD[39] at map at <console>:26	
+
+topFivePriceProduct.sortBy(_._4, false).take(5)
+
+Otuput -  Array((101,Meat,209,80.0),
+(100,Meat,2009,75.0), (100,Diary,1008,50.0), 
+(101,Diary,108,45.0), (101,Diary,106,31.0))
+
+println("Top 3 Priced Products based on Store Only")
+
+val productMap = product.map(rec => (rec.split(",")(0),rec))
+val productMapGrp = productMap.groupByKey()
+val productMapGrpSort = productMapGrp.flatMap(_._2.toList.sortBy(k => -k.split(",")(3).toFloat).take(3))
+
+println("Top 3 Priced Products based on Store and Category Only")
+
+val productMap1 = product.map(rec => ((rec.split(",")(0),rec.split(",")(1)),rec))
+val productMap1Grp = productMap1.groupByKey()
+val productMap1GrpSort = productMap1Grp.flatMap(_._2.toList.sortBy(k => -k.split(",")(3).toFloat).take(3))
+
+
+
+
+
+
+
+products.
+filter(rec =>(rec.split(",")(0) != 685 && rec.split(",")(4).toFloat >= 0.0f)).
+map(rec =>rec.split(",")(4).toFloat).
+reduce((min,value) => if(min <= value) min else value)
+
+c
+reduce((max,value) => if(max >= value) max else value)
+
+products.
+filter(rec =>(rec.split(",")(0) != 685 && rec.split(",")(4).toFloat >= 0.0f)).
+map(rec =>rec.split(",")(4).toFloat).
+sortByKey(false).take(5).foreach(println)
+
+ products.
+filter(rec =>(rec.split(",")(0) != 685).
+map(rec =>rec.split(",")(4).toFloat).
+takeOrdered(5)  ---- sort the array in decending order and print data
+
+ products.
+filter(rec =>(rec.split(",")(0) != 685).
+takeOrdered(5)(Ordering[Int].on(x => x.split(",")(0).toInt))
+
+
+val i = List((1, "Hi"),(2,"world"),(3,"again"))
+i.Ordering[(Int,String)].on(rec => rec._2)
+
+val productMap = productsfilter.map(rec => rec.split(",")(1).toInt, rec)
+
+val productsGBK = productMap.groupByKey()
+aggregation on the list
+
+val productcategoryCount = productsGBK.map(rec => (rec._1, rec._2.size))
+
+All the items as individual records
+
+val productsValueCount = productsGBK.flatmap(rec => rec._2)
+
+productsGBK.flatmap(rec => {
+rec._2.toList.sortBy(k = -k.split(",")(4).toFloat)
+}).collect.foreach(println)
+
+def getAll(rec: (Int ,Iterable[String])):String ={
+	rec._2.toList.sortBy(k => -k.split(",")(4).toFloat)
+}
+
+ productsGBK.flatMap(rec=>(getAll(rec)).collect.foreach(println)
+
+ case class Orders(
+ order_id :Int,
+ 
+ )
+ val orders = sc.textFile("path")
+val ordersMap = orders.map(rec => {
+	val o = rec.split(",")
+	Orders(o(0).toInt,o(1),o(2).toInt,o(3))
+})
+
+
+

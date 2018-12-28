@@ -1,0 +1,239 @@
+password - feethei|GoopieKae6ahNoo0L(oo`J8i
+
+if the num-mappers =1 is provided then split-by will not be used?
+
+
+sc.textFile("/public/cards/largedeck.txt").map(rec => (rec.split("\\|")(2), 1)).
+reduceByKey((acc, value) => acc+value).collect().foreach(println)
+
+http://www.itversity.com/topic/setup-development-environment/
+
+http://discuss.itversity.com/t/exercise-04-deploy-and-run-word-count-application-on-the-cluster/2291
+
+"org.apache.spark" % "spark-core_2.10" % "1.6.2"
+
+set hive.cli.print.current.db=true;
+
+defualt delimeter in hive when sqoop import =/u001
+
+org.apache.hadoop.fs
+
+dfs.blocksize
+
+dfs.replication
+
+hadoop fs -Ddfs.replication=1 -Ddfs.blocksize=<specify_in_bytes>
+
+hadoop fs -Ddfs.replication=1 -put <local_src> <dest>
+
+hdfs fsck
+to get the meta data
+hdfs fsck <path> -files -blocks -locations
+
+
+http://www.cloudera.com/developers/get-started-with-hadoop-tutorial/exercise-1.html
+
+mysql -u retail_dba -h nn01.itversity.com -p
+
+rm01.itversity.com 19888, 8088
+
+nn01.itversity.com 50070
+
+wn01.itversity.com, wn02.itversity.com and wn03.itversity.com
+
+ssh tunneling
+
+foxyproxy
+
+
+sqoop
+
+ sqoop import \
+> --connect "jdbc:mysql://nn01.itversity.com:3306/retail_db" \
+> --username retail_dba \
+> --password itversity \
+> --table retail_export \
+> --warehouse-dir /user/raoufkhan/retail_db1/order_items
+
+ sqoop import \
+> --connect "jdbc:mysql://nn01.itversity.com:3306/retail_db" \
+> --username retail_dba \
+> --password itversity \
+> --table retail_export \
+> --delete-target-dir /user/raoufkhan/retail_db1/order_items
+
+https://www.youtube.com/playlist?list=PLf0swTFhTI8q4pvjNTcjMPzCYPZIrpPAa
+ sqoop import \
+> --connect "jdbc:mysql://nn01.itversity.com:3306/retail_db" \
+> --username retail_dba \
+> --password itversity \
+> --table retail_export \
+> --delete-target-dir /user/raoufkhan/retail_db1/order_items
+> --columns "col1 ,col2 .."
+
+ sqoop import \
+> --connect "jdbc:mysql://nn01.itversity.com:3306/retail_db" \
+> --username retail_dba \
+> --password itversity \
+> --query "select * from order_items" \
+> --delete-target-dir /user/raoufkhan/retail_db1/order_items
+
+ sqoop import \
+> --connect "jdbc:mysql://nn01.itversity.com:3306/retail_db" \
+> --username retail_dba \
+> --password itversity \
+> --query "select * from order_items" \
+> --delete-target-dir /user/raoufkhan/retail_db1/order_items
+> --where "order_item_order_id between 1 and 10 or order_item_order_id between 100 and 1000"
+
+
+ sqoop import \
+> --connect "jdbc:mysql://nn01.itversity.com:3306/retail_db" \
+> --username retail_dba \
+> --password itversity \
+> --table order_items \
+> --hive-import  ---- to import data in defualt db 
+> --create-hive-table \
+> --hive-database raoufkhan \
+> --hive-table order_items
+> --map-column-hive order_id = bigint
+
+
+create table if not exists orders(
+order_id int,
+order_date date,
+order_customer_id int,
+order_status varchar(45)
+)
+
+ sqoop import \
+> --connect "jdbc:mysql://nn01.itversity.com:3306/retail_db" \
+> --username retail_dba \
+> --password itversity \
+> --table order_items \
+> --hive-import  ---- to import data in defualt db 
+> --hive-database raoufkhan \
+> --hive-table orders
+
+
+ sqoop import-all-tables \
+> --connect "jdbc:mysql://nn01.itversity.com:3306/retail_db" \
+> --username retail_dba \
+> --password itversity \
+> --num-mappers 4 \
+> --delete-target-dir /user/raoufkhan/retail_db1
+> --as-avrodatafile
+
+sqoop import --connect "jdbc:mysql://nn01.itversity.com:3306/retail_db" 
+--username retail_dba -P 
+--table customers 
+--hive-database amit_test.db 
+--hive-table customersdetails 
+--hive-import -m 20;
+
+
+Sqoop Export-----
+
+sqoop export --connect "jdbc:mysql://nn01.itversity.com:3306/retail_export"
+--username retail_dba
+--password itversity
+--export-dir /user/raoufkhan/retail_db/orders \
+--table dg_orders \
+--input-fields-terminated-by '|'
+--num-mappers 4
+
+
+
+
+mapred job -logs <Job-id> <task_id>
+mapred job -list-attempt-ids <job_id> map completed
+
+Alter table dg_orders add (Testing int);
+truncate table dg_orders;
+
+create table dg_orders_staging as select * from dg_orders where 1=2;
+
+
+
+sqoop export --connect "jdbc:mysql://nn01.itversity.com:3306/retail_export"
+--username retail_dba
+--password itversity
+--export-dir /user/raoufkhan/retail_db/orders \
+--table dg_orders \
+--input-fields-terminated-by '|'
+--num-mappers 1
+--columns order_id, order_date,order_customer_id,order-status
+
+hadoop fs -get /user/dgadiraju/retail_db/orders
+vi part-m-00009
+ to overwrites the existing files or folder in hdfs use -f 
+
+hadoop fs -help put -f orders /user/dgadiraju/retail_db
+hadoop fs -ls /user/dgadiraju/retail_db/orders
+hadoop fs -tail /user/dgadiraju/retail_db/orders/part-m-00009
+
+sqoop export --connect "jdbc:mysql://nn01.itversity.com:3306/retail_export"
+--username retail_dba
+--password itversity
+--export-dir /user/raoufkhan/retail_db/orders \
+--table dg_orders \
+--input-fields-terminated-by '|'
+--num-mappers 1
+--columns order_id, order_date,order_customer_id,order-status
+--staging-table dg_orders_staging
+
+sqoop export --connect "jdbc:mysql://nn01.itversity.com:3306/retail_export"
+--username retail_dba
+--password itversity
+--export-dir /user/raoufkhan/retail_db/orders \
+--table dg_orders \
+--input-fields-terminated-by '|'
+--num-mappers 1
+--columns order_id, order_date,order_customer_id,order-status
+--staging-table dg_orders_staging --clear-staging-table
+
+
+mkdir orders_delta
+cp order?part-m-00007 orders_delta
+
+hadoop fs -put orders_delta /user/dgadiraju/retail_db
+
+sqoop export --connect "jdbc:mysql://nn01.itversity.com:3306/retail_export"
+--username retail_dba
+--password itversity
+--export-dir /user/raoufkhan/retail_db/orders_delta \
+--table dg_orders \
+--input-fields-terminated-by '|'
+--num-mappers 1
+--columns order_id, order_date,order_customer_id,order-status
+--update-key order_id
+--update-mode allowinsert
+
+
+ sqoop import \
+--connect "jdbc:mysql://nn01.itversity.com:3306/retail_export" \
+--username retail_dba \
+--password itversity \
+--query "select * from order_items" \
+--delete-target-dir /user/raoufkhan/retail_db1/order_items
+--num-mappers 2
+--null-string '\\N' --null-non-string -1 
+
+merge tutorial sqoop
+http://www.itversity.com/topic/sqoop-import-data-ingestion-into-hadoop-cloudera-vm/
+
+sqoop is advisable in all cases .. if not then in what scenarios 
+No..fisrt side affect of sqoop - 
+1-whether push or pull stratgies (pull is not possible in all cases) sqoop uses pull stratgies so we cant use
+push stratgies in which db owner push the file or provide the data
+2-when tables are partition sqoop is not feasible to use we have to DYP(do yuorself parallelism)
+3-when we have import large table on regular basis 
+
+http://discuss.itversity.com/t/exercise-05-develop-spark-application-using-scala-to-get-daily-revenue-per-department/2538
+
+
+
+ 
+
+
+

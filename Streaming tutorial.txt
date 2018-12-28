@@ -1,0 +1,49 @@
+Streaming tutorial
+
+https://gist.github.com/dgadiraju/88399b110d2234a8ff7da8c9d174a8e5
+
+mkdir flume_example
+cd flume_example
+vi flume.conf
+
+Start the logs 
+cd /opt/gen_logs
+
+start_logs.sh --- to start the logs
+
+# Name the components for the agents
+ write source ,sink and channel
+# define source 
+ define type, bind and port
+ type =netcat
+ bind =localhost
+ port =4444
+# define sink
+	sinks.k1.type =logger
+#use a channel which buffers events in memory
+
+#bind the sources and channel
+
+
+#describe sink
+
+a1.sinks.hdfs.type =hdfs
+a1.sinks.hdfs.path =hdfs://nn01.itversity.com:8020/user/dgadiraju/flume_example
+
+flume-ng agent --name a1 --conf /home/raoufkhan/flume_example --conf-file flume.conf
+telnet localhost 44444
+
+to sent the data
+
+a1.sinks.hdfs.type =hdfs
+a1.sinks.hdfs.path =hdfs://nn01.itversity.com:8020/user/dgadiraju/flume_example_%Y-%m-%d
+a.sinks.hdfssink.hdfs.fileType =DataStream
+a.sinks.hdfssink.hdfs.rollInterval =120
+a.sinks.hdfssink.hdfs.rollSize = 10485760
+a.sinks.hdfssink.hdfs.rollCount = 1000
+a.sinks.hdfssink.hdfs.fileSuffix = txt
+a.sinks.hdfssink.hdfs.filePrefix = retail_
+a.sinks.hdfssink.hdfs.useLocalTimeStamp =true
+
+
+

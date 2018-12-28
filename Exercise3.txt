@@ -1,0 +1,49 @@
+import java.sql.Connection
+import java.sql.DriverManager
+import scala.collection.Iterator
+
+case class Employee
+(
+    var first_name:String,
+  var last_name:String,
+  var sal:Double,
+  var comission_pct:Double,
+  var comission:Double
+) {
+    override def toString = s"$first_name $last_name is getting $comission" 
+}
+
+
+"E:/logs/test.txt"
+
+object comissionCal {
+  
+  def main(args : Array[String]) = {
+   val url = "jdbc:mysql://localhost:3306/hr"
+   val driver = "com.mysql.jdbc.Driver"
+   val username = "root"
+   val password = "root"
+   
+   var employee:List[Employee] = List()
+   var connection:Connection = null
+   try{
+     Class.forName(driver)
+     connection = DriverManager.getConnection(url,username,password)
+     val statement = connection.createStatement
+     val rs = statement.executeQuery(
+         "select employee_id, first_name,last_name ,commission_pct, salary,(case when (ifnull(commission_pct,0) = 0.00 ) THEN 0.00 ELSE (salary *commission_pct)END) CommisionEarned from employees")
+    
+      Iterator.continually(rs ,rs.next()).takeWhile(_._2).map(_._1).map(rec =>{
+       Employee(rec.getString("first_name"),rec.getString("last_name"),rec.getDouble("salary"),rec.getDouble("commission_pct"),rec.getDouble("CommisionEarned"))
+     }).filter{ _.comission != 0.0 } foreach println
+     
+     
+   }
+   catch{
+     case e:Exception =>e.printStackTrace
+   }
+   
+   connection.close 
+  }
+  
+}

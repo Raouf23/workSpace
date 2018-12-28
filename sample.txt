@@ -1,0 +1,29 @@
+1	Andhra Pradesh	Hyderabad 
+2	Arunachal Pradesh	Itanagar
+3	Assam	Dispur
+4	Bihar	Patna
+5	Chhattisgarh	Raipur
+6	Goa	Panaji
+7	Gujarat	Gandhinagar
+8	Haryana	Chandigarh
+9	Himachal Pradesh	Shimla
+10	Jammu and Kashmir	Srinagar (summer), Jammu (winter)
+11	Jharkhand	Ranchi
+12	Karnataka	Bengaluru
+13	Kerala	Thiruvananthapuram
+14	Madhya Pradesh	Bhopal
+15	Maharashtra	Mumbai
+16	Manipur	Imphal
+17	Meghalaya	Shillong
+18	Mizoram	Aizawl
+19	Nagaland	Kohima
+20	Odisha	Bhubaneswar
+21	Punjab	Chandigarh
+22	Rajasthan	Jaipur
+23	Sikkim	Gangtok
+24	Tamil Nadu	Chennai
+25	Telangana	Hyderabad
+26	Tripura	Agartala
+27	Uttar Pradesh	Lucknow
+28	Uttarakhand	Dehradun
+29	West Bengal	Kolkata

@@ -1,0 +1,30 @@
+Oozie Tutorial
+
+http://discuss.itversity.com/t/exercise-30-develop-oozie-workflow-to-compute-daily-revenue/3600
+
+is workflow tool. executing series of operation in predefined manner
+
+oozie_demo will come
+
+cp /usr/hdp/2.5.0.0-1245/oozie/doc/oozie-examples.tar.gz .
+
+tar xzf /usr/hdp/2.5.0.0-1245/oozie/doc/oozie-examples.tar.gz
+
+oozie job -oozie http://nn01.itversity.com:11000/oozie -config /home/dgadiraju/oozie_demo/examples/apps/java-main/job.properties -run
+
+oozie job -oozie http://nn01.itversity.com:11000/oozie -config <oozie_job_id> -info
+
+mkdir daily_revenue
+cp /home/dgadiraju/oozie_demo/examples/apps/hive2/job.properties
+cp /home/dgadiraju/oozie_demo/examples/apps/sqoop/workflow.xml
+
+Shared path to
+/user/oozie/share/lib/lib_timestamp/sqoop
+
+then job.properties defined oozie.use.system.libpath =ture
+
+-sharelibupdate run everytime when we add any new jar file
+
+sudo -u oozie hadoop fs -put /usr/share/java/mysql-connector-java.jar /user/oozie/share/lib/lib_20161114194124/sqoop
+oozie.use.system.libpath=true
+sudo -u oozie oozie admin -oozie http://nn01.itversity.com:11000/oozie -sharelibupdate 

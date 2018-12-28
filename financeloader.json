@@ -1,0 +1,86 @@
+{
+  "version" : "1.0",
+  "input_type" : "csv",
+  "csv_style": { "delimiter": "," , "n_columns_datafile": 25, "ignore_first_line": true},
+
+  
+  "key": {"column_name":"report_number", "type": "integer"},
+
+  "set": { "column_name":"origin" , "type": "string"},
+
+  
+  "binlist": [  
+              
+	{"name": "amends_rprt",
+     "value": {"column_name": "amends_report", "type" : "string"}
+    },
+    {"name": "amndByrprt",
+     "value": {"column_name": "amended_by_report", "type" : "String"}
+    },
+    {"name": "type",
+     "value": {"column_name": "type", "type" : "string"}
+    },
+    {"name": "election_year",
+     "value": {"column_name": "election_year", "type" : "String"}
+    },
+    {"name": "filer_name",
+     "value": {"column_name": "filer_name", "type" : "String"}
+    },
+    {"name": "filer_id",
+     "value": {"column_name": "filer_id", "type" : "String"}
+    },
+    {"name": "first_name",
+     "value": {"column_name": "first_name", "type" : "string"}
+    },
+    {"name": "mdl_initial",
+     "value": {"column_name": "middle_initial", "type" : "String"}
+    },
+    {"name": "last_name",
+     "value": {"column_name": "last_name", "type" : "String"}
+    },
+    {"name": "office",
+     "value": {"column_name": "office", "type" : "string"}
+    },
+    {"name": "leg_dist",
+     "value": {"column_name": "legislative_district", "type" : "String"}
+    },
+    {"name": "position",
+     "value": {"column_name": "position", "type" : "String"}
+    },
+    {"name": "party",
+     "value": {"column_name": "party", "type" : "String"}
+    },
+    {"name": "ballot_nmr",
+     "value": {"column_name": "ballot_number", "type" : "string"}
+    },
+    {"name": "fr_r_agnst",
+     "value": {"column_name": "for_or_against", "type" : "String"}
+    },
+    {"name": "jurisdiction",
+     "value": {"column_name": "jurisdiction", "type" : "String"}
+    },
+    {"name": "jrdctn_cty",
+     "value": {"column_name": "jurisdiction_county", "type" : "string"}
+    },
+    {"name": "jrdctn_type",
+     "value": {"column_name": "jurisdiction_type", "type" : "String"}
+    },
+    {"name": "recpt_date",
+     "value": {"column_name": "receipt_date", "type" : "String"}
+    },
+    {"name": "filg_mthd",
+     "value": {"column_name": "filing_method", "type" : "String"}
+    },
+    {"name": "rprt_from",
+     "value": {"column_name": "report_from", "type" : "string"}
+    },
+    {"name": "rprt_through",
+     "value": {"column_name": "report_through", "type" : "String"}
+    },
+    {"name": "url",
+     "value": {"column_name": "url", "type" : "String"}
+    }
+  ]
+
+} 
+
